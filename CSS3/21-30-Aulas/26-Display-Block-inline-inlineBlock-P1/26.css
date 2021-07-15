@@ -1,0 +1,37 @@
+div ,span
+{
+    border: 1px solid #000;
+    margin: 10px;
+    width: 150px;
+    height: 100px
+}
+#d1
+{
+  /*  display: none; /*O elemento vai existir na pagina , mas 
+    nao vai renderizar e desabilita o item mas não remove
+    seus elementos html*/
+    visibility: hidden; /*A diferença para o none é apenas oculta 
+    a visibilidade mas o elemento permanece ocupando 
+    espaço*/
+}
+#d1-2
+{
+    display: block;
+}
+
+#s1
+{
+    display: inline;
+}
+#d2
+{
+    display: inline; /* coloca o span e essa div e span
+    posterior na mesma linha e não recebe valores como
+    width e height para configurar*/
+}
+#s2
+{
+    display: inline-block; /* Voce consegue configurar o
+    tamanho e consegue manter na mesma linha que o elemento
+    anterior*/
+}

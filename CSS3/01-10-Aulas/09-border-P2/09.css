@@ -1,0 +1,27 @@
+p
+{
+    width: 300px;
+    border-top: #000 solid 10px;
+    border-top-width: 20px;
+    border-bottom: #f00 double 10px;
+    border-left: #0f0 dotted 10px;
+    border-right: #00f groove 10px;
+
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: groove;
+
+    border-top-color: #000;
+    border-right-color: #f00;
+    border-bottom-color: #0f0;
+    border-left-color: #00f;
+
+
+
+}

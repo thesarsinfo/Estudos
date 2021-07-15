@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+    <style type="text/css">
+    *
+    {
+        padding: 1px;
+        margin: 1px;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>  </h1>
+
+    <p>A tag output serve para receber calculos de outros componentes e muito utilizado em forms 
+        porem pouco utilizadon no mundo real
+    </p>
+
+    <p>Caracteristicas</p>
+
+    <p>Display: </p>
+    <p>Categoria: </p>
+    <p>Pai(contido): </p>
+    <p>Filho: </p>
+    <p>Atributos: </p>
+
+    <p>-----------------</p>
+
+    <form oninput="res.value = parseInt(a.value) + parseInt(b.value)">
+        0 <input type="range" id="a" value="50"> 100
+        <p>+</p>
+        <input type="number" min="0" max="100" id="b" value="0">
+        <p>=</p>
+        <output name="res" for="a b"> </output>
+
+    </form>
+
+
+</body>
+</html>

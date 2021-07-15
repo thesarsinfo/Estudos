@@ -1,0 +1,64 @@
+nav
+{
+    width: 200px;
+    float: left;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    background-color: #d55;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+}
+article
+{
+    margin-left: 216px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px)
+{
+    nav 
+    {
+        width: 100%;
+    }
+    nav li 
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    article
+    {
+        margin-left: 10px;
+    }
+    article p
+    {
+        text-align: justify;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 800px)
+{
+  
+    nav li 
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    article section 
+    {
+        float: left;       
+    }
+    article section 
+    {
+        flex-wrap: wrap;
+    }
+
+}

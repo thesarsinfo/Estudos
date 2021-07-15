@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula20-detais-summary</title>
+    <style>
+        summary::marker
+        {
+            color: #f00;
+        }
+        details[open] summary::marker
+        {
+            color: #00f;
+        }
+        details
+        {
+            background-color: #888;
+        }
+        summary
+        {
+            background-color: #ddd;
+        }
+        details article
+        {
+            
+            border: 1px #000 solid;
+            border-radius: 15px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula20-detais-summary</h1>
+    <p> detais é uma tag interativa que abre e fecha o conteudo <br>
+    summary é o título da caixa detais e portanto temos de usar</p>
+    <p>details = display block da categoria fluxo e interativo e contido por 
+        fluxo e filhos são &laquo;legend&raquo; open (bool) com elemento 
+        expandido </p>
+    <p>summary = </p>
+
+    <details>
+        <summary>Curso de HTML 5 completo e profissional</summary>
+        <article>
+            <p>HTML Completo e profissional</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>C++</p>
+        </article>
+        <article>
+            <p>HTML Completo e profissional</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>C++</p>
+        </article>        
+    </details>
+    <article>
+        <p>HTML COmpleto e profissional</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>C++</p>
+    </article> 
+</body>
+</html>

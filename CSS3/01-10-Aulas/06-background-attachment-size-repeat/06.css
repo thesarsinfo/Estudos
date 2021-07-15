@@ -1,0 +1,8 @@
+body
+{
+    background-image: url(logo2.png) , url(logo1.png);
+    background-repeat: no-repeat , repeat;
+    background-size: 400px , 30px;
+    background-attachment: scroll,fixed; /* Valor padrão scroll 
+ fixed --   imagem fica fixa na rolagem*/
+}

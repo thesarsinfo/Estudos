@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula24-Dialog-p2</title>
+    <style>
+        dialog
+        {
+            padding: 0;
+            border: 0;
+            border-radius: 7px;
+            box-shadow: 0 0 10px #000;
+            flex-direction: column;
+        }
+        dialog::backdrop
+        {
+            background-color: rgba(0,0,0,0.5);
+        }
+        .dialog-titulo
+        {
+            background-color: #eee;
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #aaa;
+            height: 40px;
+        }
+        .dialog-corpo
+        {
+            background-color: #fff;
+            padding: 7px;
+        }
+        .dialog-rodape
+        {
+            background-color: #fff;
+            border-bottom-left-radius: inherit;
+            border-bottom-right-radius: inherit ;
+            padding: 7px;
+            border-top: 1px solid #aaa;
+        }
+        #btn-fechar
+        {
+            border: none;
+            border-radius: 7px;
+            padding: 7px;
+            cursor: pointer;
+            outline: none;
+        }
+        #btn-fechar:hover
+        {
+            background-color: #eee;
+        }
+        
+    </style>
+
+    <script>
+        function fecharDialog()
+        {
+            document.getElementById("btn_dialog").innerHTML = "Abrir";
+            document.getElementById("d1").removeAttribute("open");
+        }
+        function abrirDialog()
+        {
+            document.getElementById("btn_dialog").innerHTML = "Fechar";
+            document.getElementById("d1").setAttribute("open","");
+        }
+        function controlaDialog(titulo , msg)
+        {
+            
+            if(document.getElementById("d1").open )
+            {
+                fecharDialog();
+                console.log("fechar");
+            }
+            else
+            {
+                abrirDialog()
+                console.log("abrir");
+                document.getElementById("titulo").innerHTML = titulo
+                document.getElementById("msg1").innerHTML = msg
+                
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Aula24-Dialog-p2</h1>
+    <p>Criando uma caixa generica de dialog personalizada</p>
+
+    <button onclick="controlaDialog('Curso de HTML 5','Saraiva Estudos de html completo')" id="btn_dialog">Abrir</button>
+    <button onclick="controlaDialog('TEste2',' completo')" id="btn_dialog">Abrir 2</button>
+    
+    <dialog id="d1" >
+        <div class="dialog-titulo">
+            <h3 id="titulo"></h3>
+        </div>
+        <div class="dialog-corpo">
+            <p>Caixa de dialogo nativa do HTML 5</p>
+            <p id="msg1"></p>
+        </div>
+        <div class="dialog-rodape">
+            <button onclick="fecharDialog()" id="btn-fechar"> Fechar</button>
+        </div>
+    </dialog>
+</body>
+</html>

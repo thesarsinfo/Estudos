@@ -1,0 +1,47 @@
+ ul
+{
+    list-style-type: disc;
+    list-style-position: inside ; /*Padrão é outside, serve para configurar a
+    posição dos marcadores*/
+    list-style-image: url(IconeLista.png); /*Utilize a imagem com background 
+    transparente*/
+    font-size: 25px;
+}
+ol
+{
+    font-size: 25px;
+    /*metapropriedade list-style*/
+    list-style: decimal-leading-zero inside ;
+}
+li
+{
+    border: 1px solid #000;
+    width: 200px;
+    height: 40px ;
+    
+}
+.o1
+{
+    list-style: none;
+    padding: 0px;
+    border: none;
+
+}
+.o1 li 
+{
+    border-right: 1px solid #fff;
+    background-color: #800 ;
+    width: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.o1 li:hover 
+{
+    background-color: #f20;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+}

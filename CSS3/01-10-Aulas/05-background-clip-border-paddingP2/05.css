@@ -1,0 +1,30 @@
+#d1,#d2,#d3,#pa1
+{
+    border: 20px dotted #000;
+    /*
+    tipos de bordas 
+    dotted = pontilhado
+    */
+    
+    
+    padding: 5px 10px 50px 15px;
+    background-image: url(marcador.png);
+}
+#d1
+{
+    background-clip: border-box; /*border box é padrão de uso inicial 
+    ou seja a borda faz parte do background*/
+}
+#d2
+{
+    background-clip: padding-box; /*Não considera a area da borda como parte*/
+}
+#d3
+{
+    background-clip: content-box; /* só aplica o background se houver um con
+    conteudo dentro*/
+}
+#pa1
+{
+    background-clip: padding-box;
+}

@@ -1,0 +1,19 @@
+section
+{
+    display: flex; /* torna os elementos filhos flexiveis*/
+    display: -moz-flex; /* Para versões antigas*/
+    display: -webkit-flex;
+
+    border: 3px solid #f00;
+    min-width: 600px;
+    flex-wrap: wrap; /*Padrão nowrap || A configuração wrap quebra a 
+    linha jogando o elemento para baixo*/
+}
+div
+{
+    border: 1px solid #000;
+    /*flex: 1; /*Deixa a largura flexivel ao tamamho do container pai
+    do mesmo tamanho exceto se tiver width definido que configura 
+    de tamanho fixo*/
+    width: 100px;
+}

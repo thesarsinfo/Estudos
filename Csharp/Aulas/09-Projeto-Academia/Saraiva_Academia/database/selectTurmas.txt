@@ -1,0 +1,17 @@
+select 
+    turmas.N_IdHorario as 'ID',
+    turmas.T_DescricaoTurma as 'Descrição Turma',
+    turmas.N_MaximoAlunos as 'Maximo de Alunos',    
+    horarios.T_DescricaoHorario as 'Horário',
+    professores.T_NomeProfessor as 'Professor',
+    CASE
+        WHEN turmas.T_Status = 'A' THEN 'Ativa'
+        WHEN turmas.T_Status = 'P' THEN 'Paralizada'
+        WHEN turmas.T_Status = 'C' THEN 'Cancelada'
+    END  as 'Status'
+    
+from
+    tb_turmas as turmas
+INNER join
+    tb_horarios as horarios on horarios.N_IdHorario = turmas.N_IdHorario,
+    tb_professores as professores on professores.N_IdProfessor = turmas.N_IdProfessor

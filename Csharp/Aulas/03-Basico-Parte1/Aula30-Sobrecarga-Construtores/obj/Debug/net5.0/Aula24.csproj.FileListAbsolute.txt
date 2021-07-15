@@ -1,0 +1,16 @@
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\Aula24.exe
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\Aula24.deps.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\Aula24.runtimeconfig.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\Aula24.runtimeconfig.dev.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\Aula24.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\ref\Aula24.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\bin\Debug\net5.0\Aula24.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.csprojAssemblyReference.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.AssemblyInfoInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.AssemblyInfo.cs
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.csproj.CoreCompileInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\ref\Aula24.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\03-Basico-Parte1\Aula30-Sobrecarga-Construtores\obj\Debug\net5.0\Aula24.genruntimeconfig.cache

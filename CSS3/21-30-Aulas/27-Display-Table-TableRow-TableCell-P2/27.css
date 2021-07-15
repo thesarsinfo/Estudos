@@ -1,0 +1,45 @@
+div
+{
+    border: 1px solid #000;
+    background-color: tomato;
+    width: 200px;
+    height: 100px;
+    display: table-cell; /* Essa div vai se comportar como
+    uma celula de uma tabela e issosignifica  que podemos
+    configurar o seu conteudo do vertical align */
+    vertical-align: middle;
+    text-align: center;
+    /*line-height: 100px; para casos que não possa usar
+    o table cell*/
+}
+
+ol, ul ,li
+{
+    border: 1px solid #000;
+    
+    margin-left: 0px;
+    padding: 0px;
+
+}
+ol
+{
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+}
+ul
+{
+    display: table-row;
+    
+}
+li
+{
+    display: table-cell;
+    text-align: center;
+
+}
+
+.titulo
+{
+    background-color: turquoise;
+}

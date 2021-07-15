@@ -1,0 +1,16 @@
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\Aula02.exe
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\Aula02.deps.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\Aula02.runtimeconfig.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\Aula02.runtimeconfig.dev.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\Aula02.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\ref\Aula02.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\bin\Debug\net5.0\Aula02.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.csprojAssemblyReference.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.AssemblyInfoInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.AssemblyInfo.cs
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.csproj.CoreCompileInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\ref\Aula02.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\Aula02\obj\Debug\net5.0\Aula02.genruntimeconfig.cache

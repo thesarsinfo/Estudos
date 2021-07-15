@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 - Tags area e map</title>
+</head>
+<body>
+    <p>
+        A tag area é uma tag filha da tag map <br>
+        a tag area define uma area clicavel dentro de uma imagens
+        A tag area tem Display none(Não visivel) 
+        Categoria : Fluxo e Fraseado
+        Deve estar sempre dentro da tag map <br>
+        não tem elementos filhos <br>
+        Temos 3 configuraç~es dentro de area 
+        circle rect e poly para propriedade shape <br>
+        href para linkar a algo interno ou externo <br>
+        Dentro da propriedade coords temos que posicionar os pixel via paint
+        sempre x e y separados por virgula 
+
+
+    </p>
+    <img src="mapa.png" alt="Mapa do brasil" usemap="#mapaBrasil">
+    <map name="mapaBrasil" >
+        <area shape="poly" coords="340,368,351,347,385,344,396,300,438,286,
+        492,313,467,375,447,399,402,412,387,370,346,367"
+         href="http://www.google.com.br/Minas_Gerais" target="_blank" alt="Minas Gerais">
+         <area shape="poly" coords="429,286,397,289,365,283,370,239,386,207,401,172,
+         394,164,411,169,407,199,427,213,430,244,427,264,429,277"
+         href="http://www.google.com.br/Tocantins" target="_blank" alt="Tocantins">
+    </map>
+</body>
+</html>

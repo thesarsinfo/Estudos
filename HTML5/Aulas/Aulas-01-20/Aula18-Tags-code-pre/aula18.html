@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula18-Tags-code-pre</title>
+    <style>
+        pre
+        {
+            border: 1px solid #000;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 18 - Tags - code - pre</h1>
+    <p>A tag code serve para redenrenrizar um texto de codigo de programação 
+        mais bonito e visivel e a tag pre é de pré formatação com espaços e quebra
+        de linha 
+    </p>
+    <p>
+        A tag code tem o display inline da categoria fluxo e fraseado e contido 
+        fraseado e tem filhos fraseado
+    </p>
+    <p>
+        A tag pre tem o display block da categoria de fluxo e contido por fluxo
+        e seus filhos são fraseados
+    </p>
+    <p>COde vem depois de pre devido a suas categorias</p>
+<!--
+    &lsaquo; representa <
+    &rsaquo; representa >
+-->
+    
+    <pre>
+        <code> 
+#include &lsaquo;stdio.h&rsaquo;
+#include &lsaquo;stdlib.h&rsaquo;
+#include &lsaquo;locale.h&rsaquo;
+int main()
+{
+    setlocale(LC_ALL,"Portugueses");
+    printf("Código básico em C");
+    system("pause");
+    return 0;
+}
+        </code>
+    </pre>
+    
+</body>
+</html>

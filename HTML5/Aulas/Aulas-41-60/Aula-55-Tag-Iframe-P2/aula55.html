@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula-55-Tag-Iframe-P2 </title>
+
+    <style type="text/css">
+    *
+    {
+        padding: 1px;
+        margin: 1px;
+    }
+    iframe
+    {
+        width: 500px;
+        height: 300px;
+        border: none;
+    }
+    .framebanner
+    {
+        width: 370px;
+        height: 70px;
+    }
+    </style>
+    <script>
+        function trocaBanner()
+        {
+            let num = Math.floor(Math.random() * 3);
+            let imgs = ['bg1.png','bg2.png','bg3.png']
+            document.getElementById("banner").src = imgs[num];
+
+        }
+        function iniciar()
+        {
+            trocaBanner();
+        }
+        window.addEventListener("load", iniciar);
+    </script>
+</head>
+<body>
+
+    <h1> Aula-55-Tag-Iframe-P2 </h1>
+
+    <p>A tag </p>
+
+    <p>Caracteristicas</p>
+
+    <p>Display: </p>
+    <p>Categoria: </p>
+    <p>Pai(contido): </p>
+    <p>Filho: </p>
+    <p>Atributos: </p>
+
+    <p>-----------------</p>
+
+    <iframe class="framebanner" id="banner" src="#" name="iframeBanner"></iframe>
+    
+    <a href="../../Aulas-21-40/Aula-33-Formulario-P3-Password-checkbox-radio/aula33.html" target="iframe_principal" >Aula 33</a>
+
+    <a href="http://w3.org" target="iframe_principal">W3.org</a>
+    <a href="http://www.github.com/cfbcursos" target="iframe_principal"> Github CFBCursos</a>
+    <iframe src="#" name="iframe_principal"></iframe>
+    
+
+    
+</body>
+</html>

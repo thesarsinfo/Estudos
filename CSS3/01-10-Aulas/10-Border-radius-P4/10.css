@@ -1,0 +1,22 @@
+div
+{
+    width: 400px;
+    height: 400px;
+    border:#000 solid 20px;
+   
+}
+#d1
+{
+    border-radius: 40px;
+}
+#d2
+{
+    /* ordem das bordas*/
+    /* superior esquerda 0px
+    superior direita 40px
+    inferior direita 0px
+    inferior esquerda 40px*/
+    border-radius: 0px 40px 0px 40px;
+    /*Podemos usar em porcentagem onde 100% representa
+    um circulo perfeito se usado uma div quadrada*/
+}

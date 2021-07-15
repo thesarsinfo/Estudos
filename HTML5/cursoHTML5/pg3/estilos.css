@@ -1,0 +1,134 @@
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-image:url(fundo.svg);
+	background-repeat: repeat-x;
+	background-color: #DDD;
+	padding: 0px;
+	overflow-y: scroll;
+}
+
+.vazio{
+	clear: both;
+}
+
+#menu{
+	float:left;
+	width: 960px;
+}
+
+#menu a:hover {
+	color:#000;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu li {
+	height: 50px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width:240px;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	font-size:20px;
+	color: #FFF;
+}
+
+#logo{
+	float: left;
+}
+
+#sociais{
+	float: right;
+	margin-top: 95px;
+}
+
+#main{
+	background: #EEE;
+	border-radius: 20px;
+	padding:20px;
+	float: left;
+	width: 660px;
+}
+
+#destinos, #contato, #promocoes{
+	background: #EEE;
+	border-radius: 20px;
+	padding:20px;
+	width: 960px;
+}
+
+#main h1, #destinos{
+	font-family: Arial;
+	font-size: 20pt;
+}
+
+#main p, #destinos{
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+#destinos img{
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
+#anexo{
+	background: #EEE;
+	border-radius: 20px;
+	padding:20px;
+	width: 200px;
+	float: right;
+	margin-left: 10px;
+}
+
+#btn{
+	color: #FFF;
+	background-color: #3C5D95;
+	font-size:1em;
+	width: 150px;
+	height: 40px;
+	border-radius: 15px;
+	border: 0px;
+	cursor:pointer;
+}
+
+#btn:hover{
+	background-color: #953C5D;
+}
+
+summary{
+	font-size: 15pt;
+	color: #FFF;
+	background-color: #3C5D95;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+	cursor:pointer;
+}
+
+details[open] summary{
+	background-color: #953C5D;
+}
+
+input{
+	font-size: 1.3em;
+}
+
+input:hover{
+	border-color:#F00;
+}
+
+input:focus{
+	background-color:#FDD;
+}
+
+footer{
+	padding: 10px 0px 0px 0px;
+}

@@ -1,0 +1,81 @@
+section
+{
+    display: flex; /* torna os elementos filhos flexiveis*/
+    display: -moz-flex; /* Para versões antigas*/
+    display: -webkit-flex;
+
+    border: 3px solid #f00;
+    min-width: 600px;
+    
+    /* Quebra de linha*/
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+   
+    /*ALiamento Vertical*/
+
+    align-items: flex-start;  
+
+    /*Direção do elemento*/
+    flex-direction: row;
+}
+div
+{
+    border: 1px solid #000;
+    /*flex: 1; */    
+    height: 50px;
+    /* Os flex-... define a capacidade do elemento filho ao elemento
+    pai seja de expansão ou encolher
+    Ou usamos flex ou flex grow*/
+    /*flex-grow: 0; /*0 fixo e 1 para expandir*/
+    /*flex-shrink:0 ou 1;
+    flex-basis:; */
+}
+
+#d1
+{
+    width: 100px;
+    order:1; /*Order permite trocar os elementos no mesmo pai trocando
+    sua ordem sem a necessidade de remanejar o codigo no html*/
+    /*Flex Padrão*/
+    flex: 0 1 auto; /* grow || shrink || basis*/
+    /*flex-grow: 0; /*Não utiliza o espaço vazio*/
+
+}
+#d2
+{
+    width: 100px;
+    order:2;
+    flex: 0 0 50%; /* OBS!!!! grow e shrink DEVEM estar no 0 e 0 para basis 
+    funcionar*/
+    
+}
+#d3
+{
+    width: 100px;
+
+    order:3;
+    flex-basis: 45%; /** Indica quando de width vai ocupar da div
+    padrao = auto*/
+    
+}
+#d4
+{
+    width: 100px;
+
+    order:4;
+    
+}
+#d5
+{
+    width: 100px;
+    flex-grow: 1;
+    order:5;
+    
+}
+#d6
+{
+    /*width: 100px;*/
+    flex-shrink: 1;
+    order:6;
+    
+}

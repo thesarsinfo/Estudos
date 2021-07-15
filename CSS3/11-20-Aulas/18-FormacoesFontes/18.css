@@ -1,0 +1,40 @@
+
+@font-face
+{
+    font-family: Font-Saraiva;
+    src: url(./fonts/Festive-Regular.ttf);
+}
+p
+{
+    font-family: Arial, "Times New Roman", sans-serif ;
+}
+.p1
+{
+    font-style: italic; /*normal - italic ou oblique */
+    font-variant: small-caps; /*Coloca todo texto em maiscula-las e todas as 
+    letras mais maiucululas ainda*/
+    /*padrão é normal*/
+}
+.p2
+{
+    font-style: oblique;
+}
+.p3
+{
+    font-size: 20px;/*tamanho da font*/
+    font-weight: bold;
+}
+.p4
+{
+    font-weight: 400;
+    font-family: 'Satisfy', cursive; /* Google fonts no html*/
+}
+.p5
+{
+    font-family: Font-Saraiva; /*Download da font e usando o @font-face e sua 
+    url*/
+    font-size: 40px;
+    font-weight: lighter; /*tira o negrito no caso a font só for negrita não 
+    funciona*/   
+    
+}

@@ -1,0 +1,54 @@
+div
+{
+    width: 100px;
+    height: 100px;
+    border: #000 solid 1px;
+}
+.dv1
+{
+    /* direção cor 1 cor2*/
+    background: linear-gradient(to right, #0f0, #ff0);
+    /*
+    Temos o gradiente linear ou radial
+    */
+}
+.dv2
+{
+    background: linear-gradient(45deg, #f00, #ff0);
+}
+/*Usando varias cores*/
+.dv3
+{
+    background: linear-gradient(90deg, #f00,#0ff,#00f, #ff0);
+}
+/*Definindo os tamanho de cada cor*/
+.dv4 /*A porcentagem se refere o começo de cada cor*/
+{
+    background: linear-gradient(180deg, #f00 0%,#0ff 25%,#00f 75%, #ff0 90%);
+}
+.dv5 /*As porcentagen é do centro para fora*/
+{
+    background: radial-gradient( #f00 0% ,#0ff 90%);    
+}
+.dv6 /*Para definir o gradient em sentido circulo ou outra forma
+indepedente da forma*/
+{
+    width: 300px;
+    background: radial-gradient(circle, #f00 0% ,#0ff 50%);    
+}
+.dv7
+{
+    background: repeating-linear-gradient(90deg, #f00 0%,#0ff 20%);
+}
+.dv8
+{
+    background: repeating-radial-gradient(circle, #f00 0%,#0ff 20%);
+}
+h1
+{
+    font-size: 50px;
+    background: linear-gradient(90deg, #f00 0% ,#0ff 50%);
+    color: transparent ; /*deixa o texto transparente*/
+    background-clip:text; /*Recortamos somente o texto*/
+}
+    

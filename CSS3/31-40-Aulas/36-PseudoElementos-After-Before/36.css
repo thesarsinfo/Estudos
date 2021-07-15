@@ -1,0 +1,20 @@
+
+.p1::before
+{
+    content: "Elemento before - ";
+    color: #f00;
+}
+.p2::before
+{
+    border: 1px solid #000;
+    content: url(Borda.png);
+    line-height: 200px;
+    width: 200px;
+    height: 90px;
+    justify-content: center;
+}
+p.p3::after /*metodo para selecionar somente p na classe p3*/
+{
+    content: " - Elemento com after em azul";
+    color: #00f;
+}

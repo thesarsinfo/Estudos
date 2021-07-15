@@ -1,0 +1,44 @@
+div
+{
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+.d1
+{    
+    transform: rotateY(75deg);
+    -moz-transform: rotateY(75deg); /*Obs ele não esta encolhendo e sim girando no 
+    eixo Y que da impressao que é menor pode da bug no firefox*/
+}
+#d2
+{
+    /*transform: rotate3d(10deg,10deg,10deg); Muita imcompatibilidade com os 
+    browser e portanto é melhor usar javascript*/ 
+    background-color: #f00;
+    backface-visibility: hidden; /*Transforma a parte de traz da div visibel
+    muito util quando tem 2 div no ex jogo da memeoria
+    Padrao = visible*/
+}
+.d3
+{
+    
+    background-color: #0f0;
+
+}
+.d4
+{
+    background-color: #00f;
+    transform: translate(200px ,0px);
+    transform-origin: 200px 0px ;
+}
+.d6
+{
+    perspective: 150px;
+    border: none;
+}
+.d7
+{
+    perspective: 400px;
+    border: none;
+}

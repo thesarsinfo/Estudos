@@ -1,0 +1,24 @@
+.ex1
+{
+    font-size:  50px;
+}
+.ex2
+{
+    position: absolute;
+    top:0px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 0, 0,0.25); /*a = alpha transparencia
+    0 = transparente 1 = full visivel
+    */
+}
+.ex3
+{
+    position: absolute;
+    top:350px;
+    left: 250px;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 255,0.50)
+}

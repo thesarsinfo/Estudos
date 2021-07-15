@@ -1,0 +1,37 @@
+a
+{
+    display: block;
+    width: 210px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    margin: 3px;
+    padding: 20px  ;
+    background-color: #000;
+    border-radius: 10px;
+
+}
+a:link /* não visitados*/
+{
+    color: #f00;
+}
+a:visited /* visitado*/
+{
+    color: #0a0;
+
+}
+a:active /* link que estão sendo visitado quando clicamos nele*/
+{
+    color: #ff0;
+
+}
+a:hover /* mouse em cima*/
+{
+    
+    color: #00f;
+    font-size: 25px;
+    text-shadow: 10px 10px 1px #000;
+    background-color: #0a0;
+    border-radius: 15px;
+
+}

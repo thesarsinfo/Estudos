@@ -1,0 +1,5 @@
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\04-Basico-Parte2\Aula31-Classes-static\obj\Debug\net5.0\Aula24.csprojAssemblyReference.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\04-Basico-Parte2\Aula31-Classes-static\obj\Debug\net5.0\Aula24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\04-Basico-Parte2\Aula31-Classes-static\obj\Debug\net5.0\Aula24.AssemblyInfoInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\04-Basico-Parte2\Aula31-Classes-static\obj\Debug\net5.0\Aula24.AssemblyInfo.cs
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\04-Basico-Parte2\Aula31-Classes-static\obj\Debug\net5.0\Aula24.csproj.CoreCompileInputs.cache

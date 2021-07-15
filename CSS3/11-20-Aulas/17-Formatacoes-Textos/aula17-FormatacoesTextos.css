@@ -1,0 +1,68 @@
+div
+{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #000;
+    white-space: normal; /* normal ou nowrap = Usado para quebrar a linha diante 
+     conteiner pai*/
+    /* nowrap não quebra linha*/
+    overflow: auto; /*
+    hidden - Todo texto que saiu de linha fica invisivel
+    scroll - adiona uma rolagem de pagina mesmo não necessário
+    auto - verifica se prescisa do scroll // mais indicado
+    */
+    word-break: break-all;/*Padrao normal
+    Break all quebra a palavra quando necessário no sentido na redaçaõ ex: reda-
+    ção     */
+}
+p
+{
+    color: #f00;
+    text-decoration: none; /*tem todas as configurações de algumas tags html como 
+    como sublinhado ou riscado etc. */
+    text-transform: lowercase; /*|Capitalize - lowercase - UpperCase|*/
+    text-indent: 100px;/*Distancia para criar paragrafo*/
+    letter-spacing: 0px;/*Espaçamento entre as letras*/
+    line-height: 1; /*Altura da linha - 1 é o valor padrao*/
+     /*O paragrafo começa na direita*/
+    word-spacing: 5px ; /* Espaçamento da palavras*/
+  ;/*Padrao Left Configura o alinhamanto da ultima linha*/
+
+
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+.ex1
+{    
+    color: #f00;
+    text-align: left;
+    text-transform: capitalize;
+    text-indent: 10px;
+    
+}
+.ex2
+{    
+    color: #0a0;
+    text-transform: uppercase;
+    direction: rtl; /* Define como o tabulação do paragrafo começa nessa caso 
+    da direta para esquerda rtl*/
+    text-align-last: left;
+}
+.ex3
+{
+    color: #00f;
+    letter-spacing: 10px; /* espaçamento entre letras*/
+    word-spacing: 20px; /* espaçamento entre palavras*/
+    text-align-last: center;
+    
+}
+.ex4
+{
+    color: #f80;
+    text-transform: capitalize;
+    line-height:2; 
+     text-align-last: right;
+}

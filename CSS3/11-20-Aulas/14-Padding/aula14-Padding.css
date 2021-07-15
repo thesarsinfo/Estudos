@@ -1,0 +1,22 @@
+body
+{
+    margin: 0px;
+}
+div
+{
+    border: 1px solid #000;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.ex1
+{
+    width: 500px;
+    padding: 100px;
+    text-align: center;
+}
+.ex2
+{
+    width: 250px;
+    padding: 50px;
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Fm_BackgroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_MaskedTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_MonthCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_NumericUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_PictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_ProgeressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_RadioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_SplitCintainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_SqLite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_TabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_TableLayoutPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_Timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_ToolStripContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_TrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_TreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_WebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_CheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_CheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_ComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_DateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_FilhoCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_LinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\Aula60.exe
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\Aula60.deps.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\Aula60.runtimeconfig.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\Aula60.runtimeconfig.dev.json
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\Aula60.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\ref\Aula60.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\bin\Debug\net5.0-windows\Aula60.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.csprojAssemblyReference.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.AssemblyInfoInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.AssemblyInfo.cs
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.csproj.CoreCompileInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\ref\Aula60.dll
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vscode-inicio\Aula60\obj\Debug\net5.0-windows\Aula60.genruntimeconfig.cache

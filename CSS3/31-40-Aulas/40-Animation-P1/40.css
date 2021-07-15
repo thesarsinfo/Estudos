@@ -1,0 +1,68 @@
+@keyframes anima1
+{
+    from
+    {        
+        top:200px;        
+        background-color: #00f;
+    }
+    to
+    {       
+        top: 200px;  
+        background-color: #00f;      
+    }
+}
+@keyframes anima2
+{
+    from
+    {        
+        background-color: #fff;
+        top: 0px;
+    }
+    to
+    {       
+        background-color: #00f;
+        top: 200px;
+    }
+}
+@keyframes anima3
+{
+    from
+    {        
+        background-color: #00f;
+        top: 200px;
+    }
+    to
+    {       
+        background-color: #fff;
+        top: 200px;
+    }
+}
+@keyframes anima4
+{
+    from
+    {        
+        top:200px;        
+    }
+    to
+    {       
+        top: 0px;        
+    }
+}
+
+
+.p1
+{
+    position: relative;
+    left: 0px;
+    top:  0px;
+    width: 260px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: justify;
+    animation-name: anima2, anima1,anima3,anima4;
+    animation-duration: 3s;
+    animation-delay: 0s,3s,6s,9s;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}

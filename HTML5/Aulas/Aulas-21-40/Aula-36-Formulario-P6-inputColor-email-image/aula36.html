@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula36-Formulario-P6-inputColor-email-image</title>
+    <style type="text/css">    
+    
+    form
+    {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #eee;
+        margin: 10px;
+    }
+    .espacamento
+    {
+        margin-bottom: 10px;
+    }
+    .quebra
+    {
+        display: block;   
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Aula36-Formulario-P6-inputColor-email-image</h1>    
+
+    <form name="f_cadastro" action="#" method="get">
+
+        <label class="quebra"for="">Selecione uma cor</label>
+        <input type="color" name="f_color">
+
+        <label class="quebra"for="">Digite o seu email:</label>
+        <input type="email" name="f_email" min="2021-05-05" max="2022-03-10" >
+
+        <input  class="quebra" src="cfblogotipo.jpg" type="image" name="f_enviar2">
+       
+         <!----------
+            Image serve para subtituir o botao padrão de submit------->
+
+        <input class="quebra" type="submit" name="f_entrar" id="" value="Entrar">            
+        
+    </form>
+
+</body>
+</html>

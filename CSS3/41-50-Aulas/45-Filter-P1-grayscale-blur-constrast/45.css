@@ -1,0 +1,24 @@
+img
+{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.ig1
+{
+    filter: grayscale(0.5); /*0 original a 1 ou 0% a 100%*/
+}
+.ig2
+{
+    filter: blur(4px); /*max 50 px*/
+}
+.ig3
+{
+    filter: brightness(10); /* 1 é o padrão sendo q <1 diminuo o
+    brilho e >1 aumento o brilho*/
+}
+.ig4
+{
+    filter: contrast(0.5);/* 1 é o padrão sendo q <1 diminuo o
+    brilho e >1 aumento o brilho*/
+}

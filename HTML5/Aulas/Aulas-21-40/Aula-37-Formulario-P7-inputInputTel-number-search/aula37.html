@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula37-Formulario-P7-inputInputTel-number-search</title>
+    <style type="text/css">    
+    
+    form
+    {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #eee;
+        margin: 10px;
+    }
+    .espacamento
+    {
+        margin-bottom: 10px;
+    }
+    .quebra
+    {
+        display: block;   
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Aula37-Formulario-P7-inputInputTel-number-search</h1>    
+
+    <form name="f_cadastro" action="#" method="get">
+
+        <label class="quebra"for="">Telefone:</label>
+        <input type="tel" name="f_tel" 
+        pattern="\([0-9]{2}\)[0-9]{1}-[0-9]{4}-[0-9]{4}"
+        placeholder="(xx)x-xxxx-xxxx">
+
+        <label class="quebra"for="">Escolha um Numero</label>
+        <input type="number" name="f_num" step="2" min=20 max="80">
+
+        <label class="quebra"for="">Pesquisa</label>
+        <input type="search" name="f_pesquisa" >
+
+        <label class="quebra"for="">Senha:</label>
+        <input type="password" name="f_senha" 
+        pattern="[a-zA-Z0-9]{8}"
+        required
+        >
+
+        <input  class="quebra" src="cfblogotipo.jpg" type="image" name="f_enviar2">
+       
+         <!----------
+            Image serve para subtituir o botao padrão de submit------->
+
+        <input class="quebra" type="submit" name="f_entrar" id="" value="Entrar">            
+        
+    </form>
+
+</body>
+</html>

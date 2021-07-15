@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Aula-60-Tag-Object </title>
+
+    <style type="text/css">
+    *
+    {
+        padding: 1px;
+        margin: 1px;
+    }
+    object
+    {
+        width: 300px;
+        height: 100px;
+    }
+
+    </style>
+</head>
+<body>
+
+    <h1> Aula-60-Tag-Object </h1>
+
+    <p>A tag object incorporar um arquivo externo ao html da pagina e param fica mais facil 
+        configurar os parametros de object usando php ou javascript
+    </p>
+
+    <p>Caracteristicas</p>
+
+    <p>Display: inline </p>
+    <p>Categoria: Fluxo , fraseado, Incorporado</p>
+    <p>Pai(contido): Onde incoporado é esperado </p>
+    <p>Filho: param </p>
+    <p>Atributos: data , type , name, usermap, form , width e height </p>
+
+    <p>-----------------</p>
+
+    <object name="banner" data="bg3.png" type=""></object>
+<!-- O value de param não funciona no firefox por isso usa-se o data -->
+    <object name="curriculum" data="ThiagoSaraivaVendedor.pdf">
+        <param name="src" value="ThiagoSaraivaVendedor.pdf">
+    </object>
+
+</body>
+</html>

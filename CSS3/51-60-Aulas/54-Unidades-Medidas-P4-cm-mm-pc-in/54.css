@@ -1,0 +1,33 @@
+
+.p1
+{
+    font-size: 20px;
+}
+.p2
+{
+    font-size: 20pt;/* 1 pt = 1,33333pixel*/
+}
+.p3
+{
+    font-size: 2pc; /*1pc (paicas) = 16px*/
+}
+div
+{
+    border: 1px solid #000;
+}
+.d1
+{
+    width: 2.54cm;
+    height:1cm
+}
+.d2
+{
+    width: 25.4mm;
+    height: 20mm;
+}
+.d3
+{
+    width: 1in;
+    height: 1in;
+}
+/**/

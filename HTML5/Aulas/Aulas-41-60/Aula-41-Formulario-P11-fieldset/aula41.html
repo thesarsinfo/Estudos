@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-41-Formulario-P11-fieldset</title>
+    <style type="text/css">    
+    
+    form
+    {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #eee;
+        margin: 10px;
+    }
+    .espacamento
+    {
+        margin-bottom: 10px;
+    }
+    .quebra
+    {
+        display: block;   
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Aula-41-Formulario-P11-fieldset</h1>    
+
+    <form name="f_cadastro" action="#" method="get">
+
+        <fieldset>
+            <!-- legend é filho do dataset e insere um texto na linha divisoria-->
+            <legend>Dados 1:</legend>
+            <label for="f_nome">Nome:</label>
+            <input type="text" name="f_nome" id="f_nome" class="quebra">
+            <br>
+     
+            <label for="f_telefone">Telefone</label>
+            <input type="text" name="f_telefone" id="f_telefone" class="quebra">
+             <br>
+
+        </fieldset>
+            <br>
+<!-- O atributo disabled é interessante usando javascript-->
+        <fieldset disabled>
+            <legend>Dados 2:</legend>
+            <label for="f_nome">Possui carro?</label> <br>
+            <input type="radio" name="f_carro" id="f_carro" value="s" checked>Sim 
+            <br>
+            <input type="radio" name="f_carro" id="f_carro" value="n" checked>Não 
+            <br>
+     
+             <label for="f_nome">Possui casa própria?</label> <br>
+             <input type="radio" name="f_casa" id="f_casa" value="s" checked>Sim 
+             <br>
+             <input type="radio" name="f_casa" id="f_casa" value="n" checked>Não 
+             <br>    
+
+        </fieldset>
+     
+
+                 
+
+        <input class="quebra" type="submit" name="f_entrar" id="" 
+        value="Entrar">            
+        
+    </form>
+
+</body>
+</html>

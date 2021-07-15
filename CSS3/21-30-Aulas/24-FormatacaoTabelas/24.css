@@ -1,0 +1,45 @@
+table, td, th
+{
+    border: 1px solid #0a0;
+}
+
+table
+{
+    width: 500px;
+    table-layout: fixed; /*distribuir igualmente o tamanho da colunas*/
+    border-collapse: separate; /*elimina o efeito de linha dupla na bordas
+    padrão = separate*/
+    border-spacing: 10px 20px; /*espaçamento em x e y*/
+    /*Não adianta usar o 0px se quiser juntar
+    as bordas por isso usamos border collapse*/
+    empty-cells: hide;
+    /*O padrão é mostrar (show)a celula*/
+}
+td, th
+{
+    height: 50px;
+    vertical-align: middle; /*Somente usado em tabelas*/
+    text-align: center;
+}
+th
+{
+    background-color: #8a8;
+    color: #fff;
+}
+/*Formatar a tabela em modo dificil modo zebra
+consiste em aplicar em linha sim e linha não manualmente mas podemos usar
+o comando proprio
+*/
+.zebra
+{
+    background-color: #888 ;
+}
+
+tr:nth-child(even) /* podmeos usar odd para impar*/
+{
+    background-color: #ddd;
+}
+p:nth-child(odd)
+{
+    background-color: #b23;
+}

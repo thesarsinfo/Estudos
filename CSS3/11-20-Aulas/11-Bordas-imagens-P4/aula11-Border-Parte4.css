@@ -1,0 +1,14 @@
+.ex1
+{
+    border: 15px solid;
+                /*      img - tamannho px fatiamentos da img - tipo de loop*/
+                                    
+    border-image: url(imgs/Borda.png) 32 round; /*round é uma loop que preenche
+    a imagem da borda usando a imagem superior/inferios e esquerda e direta e
+    deixando os cantos com outra cor*/
+}
+.ex2
+{
+    border: 20px solid;                                    
+    border-image: url(imgs/Borda.png) 32 stretch; /*Esticar*/
+}

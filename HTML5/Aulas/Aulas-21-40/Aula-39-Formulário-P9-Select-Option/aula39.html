@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-39-Formulário-P9-Select-Option</title>
+    <style type="text/css">    
+    
+    form
+    {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #eee;
+        margin: 10px;
+    }
+    .espacamento
+    {
+        margin-bottom: 10px;
+    }
+    .quebra
+    {
+        display: block;   
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Aula-39-Formulário-P9-Select-Option</h1>    
+
+    <form name="f_cadastro" action="#" method="get">
+<!--Atributos do select
+Multiple para selecionar usando o crtl mais de uma opção
+Size
+-->
+        <select name="f_cor" >
+            <!--O value serve para passar um paramentro diferente do texto
+            caso por exemple em banco de dados com 1 caracter
+        ex: Masculino ou Feminino = M ou F-->
+            <option value="Pr">Preto</option>
+            <option value="Br">Branco</option>
+            <option value="Vm">Vermelho</option>
+            <option value="Vd">Verde</option>
+            <option value="Az">Azul</option>
+
+        </select>
+                
+
+        <input class="quebra" type="submit" name="f_entrar" id="" 
+        value="Entrar">            
+        
+    </form>
+
+</body>
+</html>

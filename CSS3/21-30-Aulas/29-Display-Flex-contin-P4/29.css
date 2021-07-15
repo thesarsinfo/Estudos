@@ -1,0 +1,47 @@
+section
+{
+    display: flex; /* torna os elementos filhos flexiveis*/
+    display: -moz-flex; /* Para versões antigas*/
+    display: -webkit-flex;
+
+    border: 3px solid #f00;
+    min-width: 600px;
+    height: 300px;
+    /* Quebra de linha*/
+    flex-wrap: nowrap; /*Padrão nowrap || A configuração wrap quebra a 
+    linha jogando o elemento para baixo*/
+
+    /** Alinhamento Horinzontal*/
+    justify-content: flex-end;
+    /*
+    Padrão flex-start
+    flex-end alinha a direita
+    center ao centro
+
+    */
+
+    /*ALiamento Vertical*/
+
+    align-items: flex-start;
+    /*
+    Padrão flex-start alinha em cima
+    flex-end alinnha em baixo
+    center ao centro
+    */
+
+    /*Direção do elemento*/
+    flex-direction: column-reverse; /*Padrão é row || Column coloca os itens 
+    na direção de colunas e pode trabalhar com reverse que inverte
+     o elementos e por isso inverte a posições do align-itens e
+     justify-content ;
+    */ 
+}
+div
+{
+    border: 1px solid #000;
+    /*flex: 1; /*Deixa a largura flexivel ao tamamho do container pai
+    do mesmo tamanho exceto se tiver width definido que configura 
+    de tamanho fixo*/
+    width: 200px;
+    height: 40px;
+}

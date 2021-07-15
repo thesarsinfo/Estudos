@@ -1,0 +1,10 @@
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\bin\Debug\Aula60.exe.config
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\bin\Debug\Aula60.exe
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\bin\Debug\Aula60.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.csprojAssemblyReference.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.Properties.Resources.resources
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.csproj.GenerateResource.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.csproj.CoreCompileInputs.cache
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.exe
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.pdb
+C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\07-avancado-vs2019-parte1\Aula60-vs2019-inicio\Aula60\obj\Debug\Aula60.Form1.resources

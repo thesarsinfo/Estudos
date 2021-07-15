@@ -1,0 +1,56 @@
+/* Position static é o padrão de todos elementos desde tenha display block*/
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+div
+{
+    border: 1px solid #000;
+    background-color: #ddd;
+}
+#d0
+{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    background-color: #eef;
+    top: 200px;
+    left: 100px;
+
+}
+.d1, .d2, .d3, .d4
+{
+    width: 300px;
+    height: 150px;
+}
+.d1
+{
+    position: absolute;
+    z-index: 2; /*Quando temos elemento com position diferente de static
+    e ocuparem o mesmo espaço usamo o z-index para definir o empilhamento*/
+}
+.d2
+{
+    position: absolute; /*Absolute consegue alterar a posição do elemento n
+        na página*/
+    top: 50px; /*top e left são propriedades complementares de possition
+    absolute ele se baseia na posição do elemento pai/*/
+    left: 50px;
+    z-index: 1;
+}
+.d3
+{
+    position: relative; /*Posicionamento ao elemento anterior STATIC ou elemento
+    irmão no html caso não possua nenhum elemento irmão STATIC ele aplica
+    as configurações ao elemento PAI*/
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.d4
+{
+    position: fixed; /*O elemento segue a configuração da janela do browser*/
+    top: 50px;
+    left:50px;
+}

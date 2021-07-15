@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula35-Formulario-P5-Month-week-hidden</title>
+    <style type="text/css">    
+    
+    form
+    {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #eee;
+        margin: 10px;
+    }
+    .espacamento
+    {
+        margin-bottom: 10px;
+    }
+    .quebra
+    {
+        display: block;   
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Aula35-Formulario-P5-Month-week-hidden</h1>    
+
+    <form name="f_cadastro" action="#" method="get">
+
+        <label class="quebra"for="">Mes</label>
+        <input type="month" name="f_mes">
+
+        <label class="quebra"for="">Semana:</label>
+        <input type="week" name="f_semana" min="2021-05-05" max="2022-03-10" >
+
+        <input type="hidden" name="canal" value="cfbcursos">
+        <input type="hidden" name="html5" value="HTML55">
+         <!----------
+            Serve para passagem de valores entre 1 ou mais formulários------->
+
+        <input class="quebra" type="submit" name="f_entrar" id="" value="Entrar">            
+        
+    </form>
+
+</body>
+</html>

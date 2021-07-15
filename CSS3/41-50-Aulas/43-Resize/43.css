@@ -1,0 +1,27 @@
+div
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    /* Para usar o resize temos que usar overflow obrigatoriamente
+    em auto ou hidden para sumir a area de rolagem*/
+    resize: both;
+    overflow: hidden;
+}
+img
+{
+    /*LEmbradno que essa configuração é somente para funcionar o
+    redimensionamento*/
+    width: 100%;
+    height: 100%;
+
+}
+div:hover
+{
+    border: 3px solid #000;
+
+}

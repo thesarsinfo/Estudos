@@ -1,0 +1,53 @@
+.p1,.p2,.p3
+{
+    width: 300px;
+    height: 270px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: justify;
+    transition:  width 2s , height 4s, background-color 1s,color 2s;
+    /*ease é o padrão
+    ease-in = inicia devagar e acelara 
+    ease-out = começa rapido termina devagar*/
+}
+.p1:hover, .p2:hover,.p3:hover
+{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(107, 14, 150);
+    color: #fff;
+    border-radius: 20px ;
+}
+.p1
+{
+    transition-timing-function: linear; 
+}
+.p2
+{
+    transition-timing-function: ease-out; 
+}
+.p3
+{
+    transition-timing-function: cubic-bezier(1,0.5,1,0.5); 
+    
+}
+.inline
+{
+    display: inline;
+}
+img
+{
+    display: inline;
+    width: 200px;
+    transition:  width 2s , height 2s;
+    transition-timing-function: cubic-bezier(0.1,0.95,1,1);
+}
+img:hover
+{
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}

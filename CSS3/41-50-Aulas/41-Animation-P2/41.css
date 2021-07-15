@@ -1,0 +1,58 @@
+@keyframes anima
+{
+    0%
+    {        
+        background-color: #fff;
+        left: 0px;
+        top: 0px;
+    }
+    25%
+    {       
+        background-color: #00f;
+        left:0px;
+        top: 200px;
+    }
+    50%
+    {        
+        left: 200px;
+        top:200px;        
+        background-color: #00f;
+    }
+    75%
+    {       
+        left: 200px;
+        top: 0px;  
+        background-color: #00f;      
+    }
+    100%
+    {        
+        background-color: #fff;
+        left: 0px;
+        top: 0px;
+    }
+    
+}
+
+
+
+.p1
+{
+    position: relative;
+    left: 0px;
+    top:  0px;
+    width: 260px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: justify;
+    animation-name: anima;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;/*Infinite || Ou especifica o n vezes*/
+    animation-play-state: running;/* Muito util para controlar com
+    javascript || Padrão runnig*/
+    animation-direction: normal;/*Reverse || alternate especifica uma normal
+    e outra reverse*/
+}

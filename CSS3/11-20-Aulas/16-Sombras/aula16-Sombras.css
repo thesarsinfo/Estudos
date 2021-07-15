@@ -1,0 +1,32 @@
+h1
+{
+    font-size: 50px;
+    color: #f00;
+}
+div 
+{
+    width: 150px;
+    height: 150px;
+    border: #000 solid 1px;
+}
+.ex1
+{    
+    /* Para texto usamos uma sombra com o nome text-shadow*/
+    /* distancia x - distancia y - tamhanho blur borrao - cor*/
+    text-shadow: 10px 8px 0px #000  ;
+}
+.ex2
+{
+    text-shadow: 5px 5px 4px #888;
+}
+/*Mix de varias sombras no mesmo objeto*/
+.ex3
+{
+    text-shadow: 5px 5px 5px #ff0,10px 10px 6px #00f, 15px 15px 5px #0f0; 
+
+}
+.ex4 /*Mesma configuração do text-shadow , mas é usado somente para elementos
+de seção como div, article, section etc.*/
+{
+    box-shadow: 5px 5px 15px #888;
+}

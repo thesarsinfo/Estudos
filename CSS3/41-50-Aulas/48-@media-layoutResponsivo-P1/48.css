@@ -1,0 +1,40 @@
+
+.ig1
+{
+    width: 450px;
+}
+/*
+@media retorna um bool false ou verdadeiro quando as condições 
+abaixo forem obedecidas
+@media print = layout para impressão
+@media screen = layout para diferentes telas
+@media speech = para leitores digitais
+@media all = para todos os elementos acima nesse comentario
+
+*/
+body 
+{
+    background-color: #ff0;
+}
+@media screen and (min-width:0px) and (max-width:500px) and
+(orientation:portrait) 
+{
+    body 
+    {
+        background-color: #f00;
+    }
+}
+@media screen and (min-width:501px) and (max-width:800px)
+{
+    body 
+    {
+        background-color: #0f0;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1200px)
+{
+    body 
+    {
+        background-color: #00f;
+    }
+}

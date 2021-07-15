@@ -1,0 +1,45 @@
+
+body
+{
+    font-size: 20px;
+    font-family: Arial; 
+
+    
+}
+div
+{
+    display: block;
+    width: 250px;
+    border: 1px solid;
+
+}
+#d1
+{
+    border-color:  #f00;
+    width: 50vw; /*1/100 da largura da janela = 1% da janela do browser*/
+    height: 50vh; /*1/100 da altura da janela = 1% da janela*/
+}
+#d2
+{
+    width: 50vw; /*do browser = 50%*/
+    height: 50vh;
+    border-color: #00f;
+}
+#d3
+{
+    display: inline-block;
+    height: 10em; /*200px*/
+    width: 100px;    
+}
+#d4
+{
+    display: inline-block;
+    width: 100px;
+    height: 5ex; /*Podemos comparar ex com o mesmo tamanho de em em proporção
+    Porem o ex é o tamanho da letra x*/
+}
+p
+{
+    display: inline-block;
+    font-size: 5em ; /*100px*/
+}

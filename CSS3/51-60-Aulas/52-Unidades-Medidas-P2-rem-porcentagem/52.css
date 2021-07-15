@@ -1,0 +1,80 @@
+html
+{
+    font-size: 20px;
+}
+
+body
+{
+    font-size: 2em; /*Para entender o tamanho da alturas da div*/
+    /*40px*/
+}
+.p1
+{
+    font-size: 16px; /*Fonte padrão do Browser*/
+}
+.p2
+{
+    font-size: 1em; /* 2 * tamanho da fonte do elemento pai que é body ou html
+    caso não apareçã então é 16px padrao
+    Portando o resultado é 32px*/
+
+    /*Calculo 
+    Elemento pai * elemento pai * valor fonte elemento sendo formatado = tamanho da fonte
+    || html 20px || * || body 2em || * || elemento atual 1em || = tamanho da fonte
+    tamanho da fonte = 40px
+    */
+}
+.p3
+{
+    font-size: 32px;
+    color: #f00;
+}
+div
+{
+    display: inline-block;
+    width: 300px;
+    border: 1px solid;
+
+}
+#d1
+{
+    border: 1px solid #f00;
+    height: 2em; /*80*/
+     /*Calculo 
+    Elemento pai * elemento pai * valor fonte elemento sendo formatado = tamanho da fonte
+    || html 20px || * || body 2em || * || elemento atual 2em || = tamanho da fonte
+    || html 1em || * || body 2em|| * || elemento atual 2em || = tamanho da fonte
+    SE 1em = 20px portando 4em * 20px || = tamanho da fonte
+    tamanho da fonte = 80px
+    */
+}
+#d2
+{
+    border: 1px solid #00f;
+    height: 20px;
+}
+#d3
+{
+    border: 1px solid #f0f;
+    height: 2rem; /*Ignora o elemento pai e pega o tamanho do html nesse caso
+    40px*/
+}
+#d4
+{
+    border: 1px solid #00f;
+    height: 20px;
+}
+.d5
+{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-color: #ff0;
+}
+.d6
+{
+    display: block;
+    width: 50%;
+    height: 20%;
+    border-color: #f80;
+}

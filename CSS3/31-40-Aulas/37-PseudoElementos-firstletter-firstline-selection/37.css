@@ -1,0 +1,17 @@
+p
+{
+    font-size: 20px;
+}
+.p1::first-letter
+{
+    font-size: 40px;
+    color: #00f;
+}
+.p2::first-line
+{
+    background-color: #f0f;
+}
+::selection
+{
+    color: #f30;
+}

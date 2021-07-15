@@ -1,0 +1,54 @@
+header
+{
+    height: 150px;
+}
+nav
+{
+    
+    background-color: tomato;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+}
+nav a 
+{
+    width: 150px;
+    min-width: 150px;    
+    padding: 10px 2px;
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+    font-weight: bold;
+
+    align-items: center;
+    justify-content: center;
+    
+
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div
+{
+    width: 200px;
+    min-width: 200px;
+    height: 100px;
+    min-height: 100px;
+    margin: 5px;
+    border: 1px solid tomato;    
+}
+footer
+{
+    height: 50px ;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    color: #fff;
+}

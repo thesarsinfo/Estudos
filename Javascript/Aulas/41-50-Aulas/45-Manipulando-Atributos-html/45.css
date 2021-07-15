@@ -1,0 +1,22 @@
+#carro
+{
+    width: 200px;
+    height: 379px;
+}
+.c1
+{
+    background-image: url("imgs/carro1.png");
+    background-repeat: no-repeat;
+}
+.c2
+{
+    background-image: url("imgs/carro2.png");
+    background-repeat: no-repeat;
+
+}
+.c3
+{
+    background-image: url("imgs/carro3.png");
+    background-repeat: no-repeat;
+
+}

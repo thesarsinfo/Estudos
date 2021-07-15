@@ -1,0 +1,55 @@
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #F0F0E0;
+}
+
+#cab, footer{
+	background-color: #508050;
+	padding: 10px 20px 10px 20px;
+	border-radius: 0px 0px 20px 20px;
+	color:#FFF;
+}
+
+#parques{
+	background-color: #505080;
+	padding:0px 10px 10px 10px; 
+	border-radius: 20px;
+}
+
+footer{
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+#parques img{
+	float: left;
+	margin: 0px 10px 0px 0px;
+	width: 150px;
+}
+
+#parques article{
+	border-bottom: 1px dashed #A0FFFF;
+	padding-bottom: 10px;
+}
+
+#parques h1,#parques h2{
+	color:#FFF;	
+}
+
+#parques p{
+	text-align: justify;
+	color:#A0FFFF;
+}
+
+h2{
+	font-size: 15px;
+}
+
+h1{
+	padding-top:20px;
+}
+
+.vazio{
+	clear: both;
+}

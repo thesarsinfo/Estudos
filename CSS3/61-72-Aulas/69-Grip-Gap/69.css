@@ -1,0 +1,23 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.conteiner
+{
+    display: grid;/*Podemos usar inline grid que determina o tamanho ao conteudo*/
+    grid-template-columns: auto  auto;/*define o nemuro de colunas e seu tamanho*/
+   /* ESPAÇAMENTO ENTRE AS COLUNAS
+    column-gap: 10px;
+    row-gap: 10px;
+    */
+    gap: 5px 15px; /*row e columm || se usamos uma linha vale para os 2*/
+    /*podemos usar o margin caso não goste de trabalhar com gap*/
+}
+.item
+{
+    background-color: #048;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}

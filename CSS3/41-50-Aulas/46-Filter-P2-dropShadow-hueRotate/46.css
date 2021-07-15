@@ -1,0 +1,43 @@
+
+img
+{
+    
+    width: 300px;
+    margin-bottom: 20px;
+}
+.ig1
+{
+    
+                       /*distX distY blur cor*/
+    filter: drop-shadow(0px 0px 5px #0ff);/*
+    sombra projetada um, pouco diferente de box-shadow onde é
+    retangular e drop-shadow é circular*/
+    
+   
+}
+.ig2
+{
+    filter: drop-shadow(10px 10px 15px #00f) hue-rotate(100deg);
+    /*Melho usar com imagem de fundo transparente*/
+    /*Controla a matiz do elemento*/
+    
+     
+}
+.ig3
+{
+    filter: invert(1);
+    /*Inverte as cores onde 0 é o padrão*/
+}
+.ig4
+{
+    filter: opacity(0.2); /*transparencia de 0 a 1 = rgba*/
+}
+.ig5
+{
+     filter: saturate(8); /*Destaca as cores padrão = 1
+     <1 aumenta as escala de cinza e >0 aumenta o destaque da cores*/
+}
+.ig6
+{
+     filter: sepia(1);/*gera um efeito de envelhecido*/
+}

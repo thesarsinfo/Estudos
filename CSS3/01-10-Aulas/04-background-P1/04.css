@@ -1,0 +1,27 @@
+body
+{
+    background-color: #bbb;
+    background-image: url(logo1.png) , url(css3-logo.png);
+    background-size: 300px 300px, 100px 50px;
+    background-repeat: no-repeat , repeat;
+    /*
+    padrão é repeat onde repeat em x e y
+    no-repeat não repete a imagem
+    repteat-x repete em eixo x
+    repeat-y repete a imagem no eixo y
+    */
+    background-position: 100px 50px, 0px 0px;
+    /*
+    left-top ;left-bottom; right-top e right-bottom ou undades em x ou y
+    */
+}
+
+p
+{
+    font-size: 35pt;
+    color: #888;
+    background-color: #0f0;
+    background-image: url(marcador.png);
+    background-repeat: repeat-x;
+    
+}

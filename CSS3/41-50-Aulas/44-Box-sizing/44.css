@@ -1,0 +1,18 @@
+div
+{
+    width: 300px;
+    height: 200px;
+    box-sizing: content-box; /* valor padrao = Content-box*/
+}
+.dv1
+{
+    
+    border: 10px solid #000;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.dv2
+{
+    background-color: #888;
+    
+}

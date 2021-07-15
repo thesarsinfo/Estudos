@@ -1,0 +1,18 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.conteiner
+{
+    display: grid;/*Podemos usar inline grid que determina o tamanho ao conteudo*/
+    grid-template-rows: auto 50px 100px 16px; /*Altura da linhas*/
+    grid-template-columns: 200px auto;/*define o nemuro de colunas e seu tamanho*/
+}
+.item
+{
+    background-color: #048;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}

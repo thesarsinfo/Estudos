@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula-57-Tag-meter </title>
+
+    <style type="text/css">
+    *
+    {
+        padding: 1px;
+        margin: 1px;
+    }
+    meter
+    {
+        width: 300px;
+    }
+    </style>
+
+    
+</head>
+<body>
+
+    <h1> Aula-57-Tag-meter </h1>
+
+    <p>A tag meter é um medidor com parametros podmeos usar html ou php ou javascript para manipulalo</p>
+
+    <p>Caracteristicas</p>
+
+    <p>Display: inline </p>
+    <p>Categoria: Fluxo e fraseado </p>
+    <p>Pai(contido): fraseado</p>
+    <p>Filho: fraseado caso o browser não renderize</p>
+    <p>Atributos: </p>
+
+    <p>-----------------</p>
+
+    <meter id="m1" value="1" max="10" min="0" high="8" low="3" optimum="5"> </meter>
+    <script type="text/javascript">
+
+        document.getElementById("m1").value = "9"
+    </script>
+</body>
+</html>

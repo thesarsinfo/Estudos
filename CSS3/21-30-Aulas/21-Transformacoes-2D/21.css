@@ -1,0 +1,46 @@
+/* OBS::: Sempre utilize 2 transforções na mesma linha de codigo pq dará 
+erro se fizer separado*/
+body
+{
+    height: 1000px;
+}
+div
+{
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px;
+    border: 1px solid #000;
+}
+.d1
+{
+   
+    transform: rotate(45deg);/*ponto de rotaçao é o meio da imagem*/
+}
+.d1:hover
+{
+    transform: scale(1.25) translate(200px, 10px); /*movimento do ponto original no caso 200px
+    não confundir com position*/
+}
+.d2
+{
+    
+    transform: scale(1.24);
+}
+.d2:hover
+{
+    transform:  skewY(30deg) skewX(-30deg); /*obs: Usa-se skew onde usamos os 2
+    valores skew(30deg,0deg)*/   
+}
+.d3
+{
+   /* transform: matrix(scaleX, skewY,skewX, translateX,translateY);*/
+  transform: matrix(1,0,0,1,200,0);
+}
+.d3:hover
+{
+    
+    transform-origin: 100% 100% ; /* Ex x = 100px então o ponto de origem de x 
+    é no final ou 100px da esquerda para direita*/
+    transform: rotate(255deg); /* é considerado o ponto de carregamento e não no
+    hover*/
+}

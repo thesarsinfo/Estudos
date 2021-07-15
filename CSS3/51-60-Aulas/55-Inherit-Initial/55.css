@@ -1,0 +1,20 @@
+html
+{
+    color: #f00;
+}
+body
+{
+    color: #0f0;
+}
+.d1
+{
+    color: #0ff
+}
+.d2
+{
+    color: #f0f;
+}
+h1,p
+{
+    color: inherit;
+}

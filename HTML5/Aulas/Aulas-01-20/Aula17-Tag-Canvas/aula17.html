@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula17-Tag-Canvas</title>
+    <style>
+        canvas{border: 1px solid #000;}
+    </style>
+    <script>
+        function desenha()
+        {
+            let canvas = document.getElementById('teleDesenho');
+            let ctx = canvas.getContext('2d');
+            ctx.fillRect(25,25,100,100);
+        }
+    </script>
+</head>
+<body>
+    <h1>Aula17-Tag-Canvas</h1>
+    <p>Canvas uma area de bitmap para redenrenrizar gráficos e usado para jogos
+        usando javascript
+    </p>
+    <p>
+        Possui o display block da categoria fluxo, fraseado e incorporado e 
+        está contido onde o incorporado é esperado e filhos são transparentes
+        exceto se o browser não tiver suporte e emite um aviso
+    </p>
+
+    <canvas id="teleDesenho" width="500px" height="500px" >
+        Seu browser não tem suporte ao elemento canvas
+    </canvas>
+    <script>desenha();</script>
+</body>
+</html>

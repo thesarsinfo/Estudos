@@ -1,0 +1,28 @@
+p
+{
+    color: #f00;
+    font-size: 20px;
+}
+#p1
+{
+    color: #00f;
+}
+.txt
+{
+    color: #080;
+    font-size: 30px;
+}
+
+h4 , h5 ,h6
+{
+    color: #800;
+    font-size: 15px;
+}
+.titulo
+{
+    color: #008;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: lighter;
+}

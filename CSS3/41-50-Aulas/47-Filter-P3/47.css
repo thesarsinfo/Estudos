@@ -1,0 +1,15 @@
+img
+{    
+    width: 500px;
+    margin-bottom: 20px;
+}
+.ig1
+{
+    filter: sepia(.8)
+            brightness(1.2)
+            saturate(0.6)
+            drop-shadow(5px 5px 10px #888) 
+            blur(1px)
+    ;
+    
+}
