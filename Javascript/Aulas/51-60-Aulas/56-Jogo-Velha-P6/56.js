@@ -3,17 +3,18 @@ let tabuleiro = [];
 let quemJoga = 0;//0 = jogador e 1 = CPU
 let verifica; // verifica se houve vencedor ou não
 let jogando = true; // false jogo parado
-let nivel = 1; // nivel da cpu
+let nivel = 2; // nivel da cpu
 let jogadaCpu = 1; //qual 
 let quemComeca = 1;
+let jogada = 0; //Controla numeros de jogadas
 
 function cpuJoga()
 {
     if(jogando)
-    {
-        
+    {        
         (nivel == 1) ? cpuNivelUm() : cpuNivelDois();             
         atualizaTabuleiro();
+        jogada++;
         verifica = verificaVitoria();
         if (verifica != "")
         {
@@ -27,12 +28,115 @@ function cpuNivelUm()
 {
     let l,c;
     do
+    {
+        l = Math.round(Math.random()*2)
+        c = Math.round(Math.random()*2)
+    } while(jogo[l][c] != "");
+    jogo[l][c]="O";
+}
+
+function cpuNivelDois()
+{
+   
+    let tipoAnalise;
+    for (let i = 0; i < 2; i++) //Verifica jogada ataque ou defesa
+    {
+       tipoAnalise = (i == 0) ? "O" : "X"
+    //Ataque linha
+        for (let l = 0; l < 3; l++)
+        {
+            if(jogo[l][0]== tipoAnalise && jogo[l][1]== tipoAnalise && jogo[l][2]=="")
+            {
+                jogo[l][2]="O";
+                return          
+            } 
+            else if (jogo[l][0]==tipoAnalise && jogo[l][2]==tipoAnalise && jogo[l][1]=="")
+            {
+                jogo[l][1]="O";
+                return     
+            }       
+            else if (jogo[l][1]==tipoAnalise && jogo[l][2]==tipoAnalise && jogo[l][0]=="")
+            {
+                jogo[l][0]="O";
+                return;            
+            }     
+        }
+        //Ataque coluna
+        for (let c = 0; c < 3; c++)
+        {
+            if(jogo[0][c]==tipoAnalise && jogo[1][c]==tipoAnalise&& jogo[2][c]=="")
+            {
+                jogo[2][c]="O";
+                return;            
+            } 
+            else if(jogo[0][c]== tipoAnalise && jogo[2][c]== tipoAnalise&& jogo[1][c]=="")
+            {
+                jogo[1][c]="O";
+                return;            
+            }      
+            else if(jogo[1][c]== tipoAnalise  && jogo[2][c]== tipoAnalise && jogo[0][c]=="")
+            {
+                jogo[0][c]="O";
+                return;            
+            }
+        }
+        //Ataque diagonal esquerda
+        if(jogo[0][0]== tipoAnalise  && jogo[1][1]== tipoAnalise && jogo[2][2]=="")
+        {
+            jogo[2][2]="O";
+            return;            
+        }
+        else if(jogo[0][0]== tipoAnalise  && jogo[2][2]== tipoAnalise && jogo[1][1]=="")
+        {
+            jogo[1][1]="O";
+            return;            
+        }
+        else if(jogo[1][1]== tipoAnalise  && jogo[2][2]== tipoAnalise && jogo[0][0]=="")
+        {
+            jogo[0][0]="O";
+            return;            
+        }
+        //Diagonal direita
+        if(jogo[2][0]== tipoAnalise  && jogo[1][1]== tipoAnalise && jogo[0][2]=="")
+        {
+            jogo[0][2]="O";
+            return;            
+        }
+        else if(jogo[2][0]== tipoAnalise  && jogo[0][2]== tipoAnalise && jogo[1][1]=="")
+        {
+            jogo[1][1]="O";
+            return;            
+        }
+        else if(jogo[1][1]== tipoAnalise  && jogo[0][2]== tipoAnalise && jogo[2][0]=="")
+        {
+            jogo[2][0]="O";
+            return;            
+        }
+    }
+    if (jogada < 8)         
+    {
+        do
         {
             l = Math.round(Math.random()*2)
             c = Math.round(Math.random()*2)
-        }while(jogo[l][c] != "");
+        } while(jogo[l][c] != "");
         jogo[l][c]="O";
+    }
+    else
+    {
+        for(let l = 0; l < 3; l++)
+        {
+            for(let c = 0; c < 3; c++)
+            {
+                if(jogo[l][c]=="")
+                {
+                    jogo[l][c]="O";
+                }
+            }
+        }
+    }   
 }
+
 function verificaVitoria()
 {
     let l,c;
@@ -156,6 +260,7 @@ function jogar(p) //jogada do jogador
                 alert(verifica + " venceu");
                 jogando = false;
             }
+            jogada++;
             cpuJoga();
         }
     }
@@ -173,7 +278,7 @@ function atualizaTabuleiro()
                 tabuleiro[l][c].style.cursor = "default";
             }
             else if(jogo[l][c] == "O")
-            {
+            {               
                 tabuleiro[l][c].innerHTML = "O";
                 tabuleiro[l][c].style.cursor = "default";
             }
@@ -189,6 +294,7 @@ function atualizaTabuleiro()
 function inicia()
 {
     jogando = true;
+    jogada = 0;
     jogadaCpu = 1;
     jogo=
     [
