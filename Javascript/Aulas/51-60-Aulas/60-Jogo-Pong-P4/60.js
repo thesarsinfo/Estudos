@@ -79,6 +79,39 @@ function controlaBola()
         bolaY = (((posAtualBolaY+(bolaHeight / 2)) - (posAtualCpuY + (barraHeight /2)))/16);
         bolaX *= -1;
     }
+    //Colisão com campo inferior e superior
+    if ((posAtualBolaY >= 480 || posAtualBolaY <= 0))
+    {
+        bolaY *= -1; 
+    }
+    //Gol do playey ou CPU esquerda ou direita
+    if (posAtualBolaX >= (campoWidth - bolaWidth))
+    {
+        velocidadeBola = 0;
+        posAtualBolaX = posBolaInicialX;
+        posAtualBolaY = posBolaInicialY;
+        posAtualJogadorY = posJogoJogadorInicialY;
+        posAtualCpuY = posJogoCpuInicialY;
+        jogadorPontos++;
+        dvJogadorPontos.value = jogadorPontos;
+        dvJogador.style.top = posAtualJogadorY + "px";
+        dvCpu.style.top = posAtualCpuY + "px";
+        jogo = false;
+    }
+    else if  (posAtualBolaX <= 0)
+    {
+        velocidadeBola = 0;
+        posAtualBolaX = posBolaInicialX;
+        posAtualBolaY = posBolaInicialY;
+        posAtualJogadorY = posJogoJogadorInicialY;
+        posAtualCpuY = posJogoCpuInicialY;
+        cpuPontos++;
+        dvCpuPontos.value = cpuPontos;
+        dvJogador.style.top = posAtualJogadorY + "px";
+        dvCpu.style.top = posAtualCpuY + "px";
+        jogo = false;
+    }
+
     dvBola.style.left = posAtualBolaX + "px";
     dvBola.style.top = posAtualBolaY + "px";
 }
