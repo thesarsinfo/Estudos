@@ -146,6 +146,46 @@ function sorteiaLadoInicial()
 //Controle da cpu
 function controlaCPU()
 {
+    if(jogo)
+    {
+        if
+        ((posAtualBolaX > (campoWidth / 2)) &&(bolaX > 0))
+        {
+            //Movimentar Cpu
+            if ( (posAtualBolaY + (bolaHeight / 2) ) > (posAtualCpuY + (barraHeight / 2)) + velocidadeCpu)
+            {
+                //Mover para baixo
+                if
+                ((posAtualCpuY + barraHeight) <= campoHeight)
+                {
+                    posAtualCpuY += velocidadeCpu
+                }
+            }
+            else if 
+            ((posAtualBolaY + (bolaHeight / 2)) < (posAtualCpuY + (barraHeight / 2)) + velocidadeCpu)
+            {
+                //Mover para cima
+                if(posAtualCpuY >= 0)
+                {
+                    posAtualCpuY -= velocidadeCpu
+                }
+            }
+        }
+        else
+        {
+            //posicionar a CPU no centro
+            if
+            ((posAtualCpuY + (barraHeight / 2) ) < (campoHeight / 2))
+            {
+                posAtualCpuY += velocidadeCpu;
+            }
+            else if ((posAtualCpuY + (barraHeight / 2) ) > (campoHeight / 2))
+            {
+                posAtualCpuY -= velocidadeCpu;
+            }
+        }
+        dvCpu.style.top = posAtualCpuY + "px";
+    }
     
 }
 
@@ -157,6 +197,7 @@ function games()
     {
         controlaJogador();
         controlaBola();
+        controlaCPU();
     }
     frames = requestAnimationFrame(games);
 }

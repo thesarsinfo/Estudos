@@ -1,0 +1,9 @@
+#painel
+{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+}

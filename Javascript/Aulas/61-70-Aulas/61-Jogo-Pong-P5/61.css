@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    background-color: #888;
+}
+#secJogo
+{
+    width: 960px;
+    height: 500px;   
+    background-color: #000;
+}
+#dvBola
+{
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+}
+.barra
+{   
+    position: absolute; 
+    top: 180px;   
+    width: 20px;
+    height: 140px;
+    background-color: #888;
+}
+.esquerda
+{
+    left: 10px;
+}
+.direita
+{
+    left: 930px;
+}
+#secPainel
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.itemPainel
+{
+    margin: 5px;
+}

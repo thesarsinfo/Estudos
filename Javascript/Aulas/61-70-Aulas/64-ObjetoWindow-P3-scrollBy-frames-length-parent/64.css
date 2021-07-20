@@ -1,0 +1,31 @@
+body
+{
+    background-color: #fff;
+}
+#painel, #qtPainel
+{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 15px;    
+    background-color: #ddd;
+}
+#qtPainel
+{
+    width: 500px;
+    height: 500px;
+}
+#painel
+{
+    width: 2000px;
+    height: 2000px;
+}
+.ponto
+{
+    position: absolute;
+    border: 1px solid #f0f;
+    width: 10px;
+    height: 10px;
+    top:1000px;
+    left: 1000px;
+}
