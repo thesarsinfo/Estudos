@@ -1,0 +1,51 @@
+body
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+.naveJogador
+{
+    width: 40px;
+    height: 40px;
+    background-image: url(imgs/nave_jog.gif);
+    position: absolute;
+}
+.telaMensagem
+{
+    position: absolute;
+    margin-left: -25%;
+    top: 50px;
+    left: 50%;
+    width: 720px;
+    height: 621px;
+    display: none;
+}
+#medidorPlaneta
+{
+    border: 2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;    
+}
+#barraPlaneta
+{   
+    width: 300px;
+    height: 20px;
+    background-color: #55f;
+}
+.tiroJogador
+{
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 6px;
+    position: absolute;
+}
+.bombas
+{
+    width: 24px;
+    height: 40px;
+    background-image: url(imgs/bomba.gif);
+    position: absolute;
+}

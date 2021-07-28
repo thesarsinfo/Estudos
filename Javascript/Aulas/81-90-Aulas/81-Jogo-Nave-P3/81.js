@@ -26,6 +26,7 @@ function teclaDown()
     if (tecla == 32)//espaço // tiro
     {
         //função tiro
+        atira(posJogX + 17, posJogY);
     }
 }
 function teclaUp()
@@ -35,15 +36,29 @@ function teclaUp()
     {
         direcaoYJogador = 0
     }
-    else if (tecla == 37 || 39) //direita
+    if (tecla == 37 || 39) //direita
     {
         direcaoXJogador = 0
     }   
 }
+function atira(x , y)//recebe parametros da posição do jogador
+{
+    let tiro = document.createElement("div");
+    let atributoUm = document.createAttribute("class");
+    let atributoDois = document.createAttribute("style");
+    atributoUm.value = "tiroJogador";
+    atributoDois.value = "top:" + y +"px; left:" + x +"px";     
+    tiro.setAttributeNode(atributoUm);
+    tiro.setAttributeNode(atributoDois);
+    document.body.appendChild(tiro);
 
+}
 function controlaJogador()//movimenta o jogador
 {
-    posJogY
+    posJogY += direcaoYJogador * velJogador;
+    posJogX += direcaoXJogador * velJogador;
+    jogador.style.top = posJogY + "px";
+    jogador.style.left = posJogX + "px";
 }
 
 function gameLoop()
@@ -51,13 +66,14 @@ function gameLoop()
     if(jogo)
     {
         //Funções de controle do jogo 
+        controlaJogador();
     }
 
     frames = requestAnimationFrame(gameLoop);
 }
 function inicia()//inicializa todos os componentes do game
 {
-    jogo = false;
+    jogo = true;
     
     //Inicialização da tela 
     tamTelaHeight = window.innerHeight;
@@ -70,6 +86,7 @@ function inicia()//inicializa todos os componentes do game
     jogador = document.getElementById("naveJogador");
     jogador.style.top = posJogY + "px";
     jogador.style.left = posJogX + "px";
+    gameLoop()
 }
 window.addEventListener("load",inicia)
 document.addEventListener("keydown",teclaDown);
