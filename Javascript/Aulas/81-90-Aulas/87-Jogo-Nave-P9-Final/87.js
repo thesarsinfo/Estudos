@@ -1,11 +1,13 @@
-var direcaoYJogador, direcaoXJogador, jogador, velJogador, posJogX,posJogY;
 var tamTelaWidth, tamTelaHeight;
+var direcaoYJogador, direcaoXJogador, jogador, velJogador, posJogX,posJogY;
 var velTiro, velBomba // controla a velocidade do tiro;
 var contBombas, painelContBombas //contador e contralador do painel Bombas
 var bombasTotal //recebe todos elementos da classe bomba
 var vidaPlaneta //
+var barraPlaneta;
 var tempoCriaBomba // recebe ointervalo de criação da bomba
 var indexExplosao, indexSom //Serve para criação de ids do jogo
+var telaMsg;
 var jogo; //controle o jogo rodando
 var frames; //usado em requestanimation frame
 
@@ -211,7 +213,25 @@ function controlaJogador()//movimenta o jogador
     jogador.style.top = posJogY + "px";
     jogador.style.left = posJogX + "px";
 }
-
+function gerenciaGame()
+{
+    barraPlaneta.style.width = vidaPlaneta + "px";
+    if (contBombas <= 0)
+    {
+        jogo = false;
+        clearInterval(tempoCriaBomba);
+        telaMsg.style.backgroundImage = "url('imgs/vitoria.jpg')";
+        telaMsg.style.display = "block";
+    }
+    if (vidaPlaneta <= 0)
+    {
+        jogo = false;
+        clearInterval(tempoCriaBomba);
+        telaMsg.style.backgroundImage = "url('imgs/derrota.jpg')";
+        telaMsg.style.display = "block";
+    }
+    
+}
 function gameLoop()
 {
     if(jogo)
@@ -220,17 +240,51 @@ function gameLoop()
         controlaJogador();
         controleTiros();
         controlaBomba()
+        gerenciaGame()
     }
 
     frames = requestAnimationFrame(gameLoop);
 }
+function reinicia()
+{
+    bombasTotal = document.getElementsByClassName("bombas");
+    let tamanho = bombasTotal.length
+    for(let i = 0; i < tamanho; i++)
+    {
+        if(bombasTotal[i])
+        {
+            bombasTotal[i].remove();
+
+        }
+    }
+    telaMsg.style.display = "none";
+    //Controles da Bombas
+    cancelAnimationFrame(frames);
+    clearInterval(tempoCriaBomba);
+    vidaPlaneta = 300;
+    posJogX = tamTelaWidth / 2;
+    posJogY = tamTelaHeight / 2;
+    jogador.style.top = posJogY + "px";
+    jogador.style.left = posJogX + "px";
+    contBombas = 150;
+    jogo = true;
+    
+    //Intervalo das bombas
+    tempoCriacao = 4000; //4seg
+    tempoCriaBomba = setInterval(criaBomba,tempoCriacao);
+    //Game Loop do Jogo;
+    gameLoop()
+}
+
 function inicia()//inicializa todos os componentes do game
 {
-    jogo = true;
+    jogo = false;
     
     //Inicialização da tela 
     tamTelaHeight = window.innerHeight;
     tamTelaWidth = window.innerWidth;
+
+
     //inicialização jogador
     direcaoXJogador = direcaoYJogador = 0;
     posJogX = tamTelaWidth / 2;
@@ -242,20 +296,27 @@ function inicia()//inicializa todos os componentes do game
     jogador.style.left = posJogX + "px";
 
     //Controles da Bombas
-    clearInterval(tempoCriaBomba)
+   
     contBombas = 150;
     velBomba = 3;
-    //Intervalo das bombas
-    tempoCriacao = 4000;
-    tempoCriaBomba = setInterval(criaBomba,tempoCriacao);
+
+    
 
     //controles do Planeta
     vidaPlaneta = 300;
+    barraPlaneta = document.getElementById("barraPlaneta");
+    barraPlaneta.style.width = vidaPlaneta + "px";
+
     //Controles de Explosao
     indexExplosao = indexSom = 0;
     
-    //Game Loop do Jogo;
-    gameLoop()
+    //inicialização de variaveis de tela de vitoria , derrota e inicio
+    telaMsg = document.getElementById("telaMsg");
+    telaMsg.style.backgroundImage = "url('imgs/intro.jpg')"
+    telaMsg.style.display = "block";
+    document.getElementById("btnJogar").addEventListener("click",reinicia);
+
+    
 }
 window.addEventListener("load",inicia)
 document.addEventListener("keydown",teclaDown);

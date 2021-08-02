@@ -4,8 +4,10 @@ var velTiro, velBomba // controla a velocidade do tiro;
 var contBombas, painelContBombas //contador e contralador do painel Bombas
 var bombasTotal //recebe todos elementos da classe bomba
 var vidaPlaneta //
+var barraPlaneta;
 var tempoCriaBomba // recebe ointervalo de criação da bomba
 var indexExplosao, indexSom //Serve para criação de ids do jogo
+var telaMsg;
 var jogo; //controle o jogo rodando
 var frames; //usado em requestanimation frame
 
@@ -211,7 +213,25 @@ function controlaJogador()//movimenta o jogador
     jogador.style.top = posJogY + "px";
     jogador.style.left = posJogX + "px";
 }
-
+function gerenciaGame()
+{
+    barraPlaneta.style.width = vidaPlaneta + "px";
+    if (contBombas <= 0)
+    {
+        jogo = false;
+        clearInterval(tempoCriaBomba);
+        telaMsg.style.backgroundImage = "url('imgs/vitoria.jpg')";
+        telaMsg.style.display = "block";
+    }
+    if (vidaPlaneta <= 0)
+    {
+        jogo = false;
+        clearInterval(tempoCriaBomba);
+        telaMsg.style.backgroundImage = "url('imgs/derrota.jpg')";
+        telaMsg.style.display = "block";
+    }
+    
+}
 function gameLoop()
 {
     if(jogo)
@@ -220,6 +240,7 @@ function gameLoop()
         controlaJogador();
         controleTiros();
         controlaBomba()
+        gerenciaGame()
     }
 
     frames = requestAnimationFrame(gameLoop);
@@ -231,6 +252,7 @@ function inicia()//inicializa todos os componentes do game
     //Inicialização da tela 
     tamTelaHeight = window.innerHeight;
     tamTelaWidth = window.innerWidth;
+
     //inicialização jogador
     direcaoXJogador = direcaoYJogador = 0;
     posJogX = tamTelaWidth / 2;
@@ -245,15 +267,22 @@ function inicia()//inicializa todos os componentes do game
     clearInterval(tempoCriaBomba)
     contBombas = 150;
     velBomba = 3;
+
     //Intervalo das bombas
     tempoCriacao = 4000;
     tempoCriaBomba = setInterval(criaBomba,tempoCriacao);
 
     //controles do Planeta
     vidaPlaneta = 300;
+    barraPlaneta = document.getElementById("barraPlaneta");
+    barraPlaneta.style.width = vidaPlaneta + "px";
+
     //Controles de Explosao
     indexExplosao = indexSom = 0;
     
+    //inicialização de variaveis de tela de vitoria , derrota e inicio
+    telaMsg = document.getElementById("telaMsg");
+
     //Game Loop do Jogo;
     gameLoop()
 }

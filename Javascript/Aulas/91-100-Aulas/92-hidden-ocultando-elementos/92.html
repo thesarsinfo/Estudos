@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="92.css">
+
+    <title>Aula 92 - Hidden - ocultando elementos sem css</title>
+
+    <script text="javascript/text" src="92.js"></script>
+
+</head>
+
+<body>
+    <p>hidden é um elemento nativo do javascript e permite ocultar objetos html retornando
+        true or false
+    </p>
+    <div id="menu">
+       <!--  <button onclick="rolar01()">Rolar</button>  Metodo simples-->
+        <img id="btnC1" class="menu_item" src="c1.png" alt="" data-nome="c1">
+        <img id="btnC2" class="menu_item" src="c2.png" alt="" data-nome="c2">
+        <img id="btnC3" class="menu_item" src="c3.png" alt="" data-nome="c3">
+        <img id="btnC4" class="menu_item" src="c4.png" alt="" data-nome="c4">
+    </div>
+    <img id="c1" src="c1.png" alt="" class="carro" onclick="sumirElemetos('c1')">
+    <img id="c2" src="c2.png" alt="" class="carro" onclick="sumirElemetos('c2')">
+    <img id="c3" src="c3.png" alt="" class="carro" onclick="sumirElemetos('c3')">
+    <img id="c4" src="c4.png" alt="" class="carro" onclick="sumirElemetos('c4')">
+</body>
+</html>

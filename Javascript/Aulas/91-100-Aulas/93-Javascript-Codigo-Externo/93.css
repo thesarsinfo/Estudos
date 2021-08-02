@@ -1,0 +1,9 @@
+.dv1
+{
+    width: 150px;
+    height: 303px;
+    cursor: pointer;   
+    background-image: url("c1.png");
+    background-size: 150px 303px;
+    display: inline-block;
+}
