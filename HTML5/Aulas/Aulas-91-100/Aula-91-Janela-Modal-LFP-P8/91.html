@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/91.css">   
+
+    <title>Aula 91 - Janela Modal P2 Layout Full Page - Parte 8</title>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#canal">Canal</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner" class="banner flexixel">
+        <img src="imgs/banner.png" alt="banner do site">
+    </section>
+
+    <section id="sobre" class="flexixel" >
+        <article class="borda0" data-anima="esquerda">
+            Sobre o canal.
+        </article>
+        <article class="borda0" data-anima="direita">
+            Sobre o mim.
+        </article>
+    </section>
+    
+    <section id="cursos" class="flexixel">
+        <article class="borda0 conteinerCursos" data-anima="esquerda">
+            <img src="imgs/C1.png" alt="Curso de programa&ccedil;&aacute;o " class="mini" onclick="">
+            <img src="imgs/C2.png" alt="Curso de Arduino" class="mini" onclick="">
+            <img src="imgs/C3.png" alt="Curso de html 5 Completo e profissonal" class="mini" onclick="">
+            <img src="imgs/C4.png" alt="Cursos de Javascript" class="mini" onclick="">
+        </article>
+
+        <article class="borda0 conteinerCursos" data-anima="centro">
+            <img src="imgs/C5.png" alt="Curso de AppInventor" class="mini" onclick="">
+            <img src="imgs/C6.png" alt="Curso de programa&ccedil;&aacute;o C++" class="mini" onclick="">
+            <img src="imgs/C7.png" alt="Curso de QtCreator" class="mini" onclick="">
+            <img src="imgs/C8.png" alt="Curso de Flash" class="mini" onclick="">
+        </article>
+
+        <article class="borda0 conteinerCursos" data-anima="direita">
+            <img src="imgs/C9.png" alt="Curso de Unity 3D com CSharp" class="mini" onclick="">
+            <img src="imgs/C10.png" alt="Curso de Photoshop" class="mini" onclick="">
+            <img src="imgs/C11.png" alt="Curso de PHP" class="mini" onclick="">
+            <img src="imgs/C12.png" alt="Curso do Site Completo" class="mini" onclick="">
+        </article>
+    </section>
+
+    <section class="parallax parallax-img1">
+        
+    </section>
+
+    <section id="canal" class="flexixel">
+        <article class="borda0" data-anima="esquerda">
+            Imagem link canal
+        </article>
+        <article class="borda0" data-anima="direita">
+           Link direto para o canal
+        </article>
+    </section>
+
+    <section class="parallax parallax-img2">
+        
+    </section>
+
+    <section id="contato" class="flexixel">
+        <article class="borda0"data-anima="esquerda">
+            Esquerda
+        </article>
+        <article class="borda0"data-anima="centro">
+            Centro
+        </article>
+        <article class="borda0"data-anima="direita">
+            Direita
+        </article>
+        
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <div id="janelaModal" class=" janelaModal escondeJanelaModal">
+        <span id="btnFechar" class="fecharModal">x</span>
+        <img id="imgModal" class="imgModal" src="" alt="">
+        <div id="txtModal" class="txtModal"></div>
+    </div>
+
+    <script type="text/javascript" src="js/91.js"></script>
+
+</body>
+</html>

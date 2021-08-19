@@ -1,0 +1,29 @@
+.menu
+{
+   background-color: rgba(0,0,0, 0.1);
+   width: 100px;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+.menu a
+{
+   display: block;
+   text-align: center;
+   padding: 25px;
+   transition: all 0.5 ease;
+}
+.menu a img
+{
+   width: 50px;
+}
+
+.menu a:hover
+{
+   background-color: #452;
+}
+
+.ativo
+{
+   background-color: #252;
+}
