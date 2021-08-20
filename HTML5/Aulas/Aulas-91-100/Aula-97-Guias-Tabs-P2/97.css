@@ -1,0 +1,48 @@
+body
+{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabs
+{
+   overflow: hidden;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+}
+.tabs button
+{
+   background-color: inherit;
+   float: left;
+   border: none;
+   outline: none; /*tira borda do clique*/
+   cursor: pointer;
+   padding: 14px 16px;
+   transition: 1.4s;
+   font-size: 17px;
+}
+.tabs button:hover
+{
+   background-color: #ddd;
+}
+.tabs button.ativo
+{
+   background-color: #ccc;
+}
+
+.conteudoTab
+{
+   display: none; 
+   padding: 6px 12px;
+   border: 1px solid #ccc;
+   border-top: none;
+}
+.fecharTab
+{
+   float: right;
+   cursor: pointer;
+   font-size: 20px;
+}
+.fecharTab:hover
+{
+   color: #f00;
+}

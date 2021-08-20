@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aula 97 - Guias e tabs Parte 2</title>
+   <link type="text/css" rel="stylesheet" href="97.css">
+</head>
+<body>
+   
+   <nav class="tabs">
+      <button data-btnTabs id="primeiro"  
+         onclick="abrirTabs(event,'cSharp')">C#
+      </button>   
+      <button data-btnTabs   
+         onclick="abrirTabs(event,'htmlCompleto')">HTML Completo
+      </button>   
+      <button data-btnTabs 
+         onclick="abrirTabs(event,'arduino')">Arduino 
+      </button>   
+   </nav>
+
+   <article id="cSharp" class="conteudoTab">
+      <span class="fecharTab" onclick="this.parentElement.style.display='none'">x</span>
+      <h3>C#</h3>
+      <p>Curso de programa&ccedil;&atilde;o em C#</p>
+   </article>
+
+   <article id="htmlCompleto" class="conteudoTab">
+      <span class="fecharTab" onclick="this.parentElement.style.display='none'">x</span>
+      <h3>HTML Completo</h3>
+      <p>Curso Completo e Profissional de HTML</p>
+   </article>
+
+   <article id="arduino" class="conteudoTab">
+      <span class="fecharTab" onclick="this.parentElement.style.display='none'">x</span>
+      <h3>Arduino</h3>
+      <p>Curso de prototipagem Arduino</p>
+   </article>
+
+   <script src="97.js"></script>
+</body>
+</html>
