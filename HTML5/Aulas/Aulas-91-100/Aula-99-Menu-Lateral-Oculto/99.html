@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aula 99 - menu oculto lateral</title>
+   <link type="text/css" rel="stylesheet" href="99.css">
+</head>
+<body>
+
+   <aside id="menuOculto" class="menuOculto">     
+      <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a> <!-- times é o X-->
+      <!-- O link a não incopora o comportamento trasition na volta e portanto temos que usar a linha codigo no href-->
+      <a href="#">Sobre</a>
+      <a href="#">Cursos</a>
+      <a href="#">Endereços</a>
+      <a href="#">Contato</a>
+   </aside>
+   <section id="principal">
+      <span style="font-size: 30px; cursor: pointer;" onclick="abrirNav()"> &#9776;</span> <!--9776 é a barra de menu-->
+      <p>Saraiva estudos</p>
+   </section>
+   <script type="text/javascript" src="99.js"></script>
+</body>
+</html>
