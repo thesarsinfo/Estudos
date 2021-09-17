@@ -1,0 +1,42 @@
+.menudropdown
+{
+   position: relative;
+   display: inline-block;
+}
+.btndropdown
+{
+   background-color: #00a;
+   color: #fff;
+   padding: 16px;
+   font-size: 16px;
+}
+.menudropdown-conteudo
+{
+   display: none;
+   position: absolute;
+   background-color: #eee;
+   min-width: 150px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2);
+   z-index: 1;
+}
+.menudropdown-conteudo a
+{
+   color: #000;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.menudropdown-conteudo a:hover
+{
+   background-color: #ddd;
+}
+.mostrar-menu-dropdown
+{
+   display: block;
+}
+.menudropdown:hover .btndropdown
+{
+   background-color: #44f;
+   
+}

@@ -1,0 +1,55 @@
+body
+{
+   margin: 0;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+   background-color: #eee;
+   padding: 30px;
+   text-align: center;
+}
+nav
+{
+   overflow:hidden;
+   background-color: #222;
+}
+nav a 
+{
+   float: left;
+   color: #eee;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+nav a:hover
+{
+   background-color: #ddd;
+   color: #000;
+}
+nav a.ativo
+{
+   background-color:  #800;
+   color: #fff;
+}
+
+.principal
+{
+   padding: 16px;
+}
+
+.fixoNoTopo
+{
+   position: fixed;
+   top: 0px;
+   width: 100%;
+}
+
+.fixoNoTopo + .principal
+{
+   padding-top: 60px;
+}
