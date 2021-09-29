@@ -1,0 +1,50 @@
+.conteinerImg
+{
+   position: relative;
+   width: 50%;
+   margin: 10px;
+}
+.conteinerImg img
+{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+.sobreposicao
+{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 100%; /*podemos brincar com width = 0 para ter outra transiçao*/
+   opacity: 0;
+   background-color: #005a89;
+   overflow: hidden;
+   transition: 0.4s ease;
+}
+.conteinerImg:hover .sobreposicao
+{
+   opacity: 1;
+}
+
+.textoImg
+{
+   color: #fff;
+   font-size: 18px;
+   position: absolute;
+   top: 30%;
+   width: 100%;
+   text-align: center;
+
+}
+.textoImg a 
+{
+   text-decoration: none;
+   color:#fff
+}
+.textoImg a:hover
+{  
+   color:#000
+}

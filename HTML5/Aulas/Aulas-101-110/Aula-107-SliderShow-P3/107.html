@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aula 107 - SLidershow parte 3</title>
+   <link type="text/css" rel="stylesheet" href="107.css">
+</head>
+<body>
+   
+   <section class="slideShowContainer">
+      <div class="slide fade ">
+         <div class="numeroSlider">1/4</div>
+         <img src="imgs/s1.png" class="imgSlide" style="width:100%"  alt="">
+         <div class="textoSlide">CFB Cursos - slide 1</div>
+      </div>
+      <div class="slide fade">
+         <div class="numeroSlider">2/4</div>
+         <img src="imgs/s2.png" class="imgSlide" style="width:100%" alt="">
+         <div class="textoSlide">CFB Cursos - slide 2</div>
+      </div>
+      <div class="slide fade">
+         <div class="numeroSlider">3/4</div>
+         <img src="imgs/s3.png" class="imgSlide" style="width:100%" alt="">
+         <div class="textoSlide">CFB Cursos - slide 3</div>
+      </div>
+      <div class="slide fade">
+         <div class="numeroSlider">4/4</div>
+         <img src="imgs/s4.png" class="imgSlide" style="width:100%" alt="">
+         <div class="textoSlide">CFB Cursos - slide 4</div>
+      </div>
+
+      <a href="" class="btnAnterior" onclick="mudarSlide(-1)">&lsaquo;</a>
+      <a href="" class="btnProximo" onclick="mudarSlide(1)">&rsaquo;</a>
+   </section>
+
+   <section style="text-align: center;">
+      <span class="indicador" onclick="slideAtual(1)"></span>
+      <span class="indicador" onclick="slideAtual(2)"></span>
+      <span class="indicador" onclick="slideAtual(3)"></span>
+      <span class="indicador" onclick="slideAtual(4)"></span>
+   </section>
+
+   <script type="text/javascript"  src="107.js"></script>
+</body>
+</html>

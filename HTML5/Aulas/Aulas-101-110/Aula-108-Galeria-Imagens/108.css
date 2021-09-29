@@ -1,0 +1,50 @@
+*
+{
+   box-sizing: border-box;
+}
+body
+{
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.galeria
+{
+   display: inline-block;
+   border: 1px solid #000;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.galeria img 
+{
+   opacity: 0.5;
+   cursor: pointer;
+   width: 150px;
+   margin: 5px;
+   margin-right: 0px;
+}
+.galeria img:hover
+{
+   opacity: 1;
+} 
+.conteiner
+{
+   position: relative;
+   display: none;
+   width: 60%;
+   margin: auto;
+}
+.conteiner img
+{
+   width: 100%;
+}
+.btnFechar
+{
+   position: absolute;
+   top: 10px;
+   right: 15px;
+   color: #fff;
+   font-size: 40px;
+   cursor: pointer;
+}

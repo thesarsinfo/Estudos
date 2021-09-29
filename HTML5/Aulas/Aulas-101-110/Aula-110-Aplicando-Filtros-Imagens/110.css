@@ -1,0 +1,66 @@
+img
+{
+   width: 500px;
+}
+.filtro1
+{
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+.filtro2
+{
+   -webkit-filter: blur(5px);
+   filter: blur(5px);
+}
+.filtro3
+{
+   -webkit-filter: brightness(300%);
+   filter: brightness(300%);
+}
+.filtro4
+{
+   -webkit-filter: contrast(300%);
+   filter: contrast(300%);
+}
+.filtro5
+{
+   -webkit-filter: drop-shadow(10px 10px 10px gray);
+   filter: drop-shadow(10px 10px 10px gray)
+}
+.filtro6
+{
+   -webkit-filter:  hue-rotate(90deg);
+   filter: hue-rotate(180deg);
+}
+.filtro7
+{
+   -webkit-filter: invert(100%);
+   filter: invert(100%);
+}
+.filtro8
+{
+   -webkit-filter: opacity(30%);
+   filter: opacity(30%);
+}
+.filtro9
+{
+   -webkit-filter: saturate(300%);
+   filter: saturate(300%);
+}
+.filtro10
+{
+   -webkit-filter: sepia(50%);
+   filter: sepia(50%);
+}
+.filtro11
+{
+   -webkit-filter: contrast(200%) brightness(150%) sepia(50%) grayscale(80%);
+   filter: contrast(200%) brightness(150%) sepia(50%) grayscale(80%) blur(1px);
+}
+
+
+
+
+
+
+
