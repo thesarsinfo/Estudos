@@ -1,0 +1,27 @@
+.galeria
+{
+   max-width: 1000px;
+   margin: auto;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #888;
+}
+.imagens
+{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+img
+{
+   max-width: 30%;
+   padding: 10px;
+}
+.ativo
+{
+   background-color: #f00;
+   border: 2px solid #000;
+   border-radius: 5px;
+   color: #fff;
+}
