@@ -8,6 +8,7 @@ import Aula07 from "./componentes/aulas-01-10/aula-07/Aula07";
 import Aula08 from "./componentes/aulas-01-10/aula-08/Aula08";
 import Aula09 from "./componentes/aulas-01-10/aula-09/aula09";
 import Aula10 from "./componentes/aulas-01-10/aula-10/Aula10";
+import Aula11 from "./componentes/aulas-11-20/aula-11/Aula11";
 
 export default function App(){  
   
@@ -21,6 +22,7 @@ export default function App(){
       <Aula08/>
       <Aula09/>
       <Aula10/>
+      <Aula11/>
     </>
   )
 }

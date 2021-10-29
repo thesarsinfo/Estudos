@@ -1,0 +1,12 @@
+.leds {
+    display: block;
+    margin: 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+.ligado  {
+    opacity: 1;
+}
+.desligado {
+    opacity: 0.5;
+}
