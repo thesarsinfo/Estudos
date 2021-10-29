@@ -1,0 +1,14 @@
+.cor {
+    color: #0f0;
+    font-size: 25px;
+}
+
+.ancora {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.ancora:hover{
+    color: #888;
+    background-color: #aaa;
+}
