@@ -12,7 +12,7 @@ export default function Aula08(){
 
     return (
         <>
-            <p>
+            <section>
                 <h3>Aula 08</h3>
                 <p> Formas de usar CSS no react</p>
                 <p style={{color: '#f00',fontSize: '25px'}}> CSS inline não recomendado</p>
@@ -23,7 +23,7 @@ export default function Aula08(){
                     target='_blank'
                     rel='noreferrer'>Canal no Youtube
                 </a>
-            </p>
+            </section>
         </>
     )
 }
