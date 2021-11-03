@@ -15,6 +15,14 @@ import Aula14 from "./componentes/aulas-11-20/aula-14/Aula14";
 import Aula15 from "./componentes/aulas-11-20/aula-15/Aula15";
 import Aula16 from "./componentes/aulas-11-20/aula-16/Aula16";
 import Desafio from "./componentes/aulas-11-20/aula-17/Desafio";
+import Aula18 from "./componentes/aulas-11-20/aula-18/Aula18";
+import Aula19 from "./componentes/aulas-11-20/aula-19/Aula19";
+import Aula20 from "./componentes/aulas-11-20/aula-20/Aula20"
+import Aula21 from "./componentes/aulas-21-30/aula-21/Aula21";
+import Aula22 from "./componentes/aulas-21-30/aula-22/Aula22";
+import Aula23 from "./componentes/aulas-21-30/aula-23/Aula23";
+import Aula24 from "./componentes/aulas-21-30/aula-24/Aula24";
+import Aula25 from "./componentes/aulas-21-30/aula-25/Aula25";
 
 export default function App(){  
   
@@ -35,6 +43,14 @@ export default function App(){
       <Aula15/>
       <Aula16/>
       <Desafio/>
+      <Aula18/>
+      <Aula19/>
+      <Aula20/>
+      <Aula21/>
+      <Aula22/>
+      <Aula23/>
+      <Aula24/>
+      <Aula25/>
     </>
   )
 }
