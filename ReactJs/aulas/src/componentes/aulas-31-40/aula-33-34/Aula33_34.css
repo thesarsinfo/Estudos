@@ -1,0 +1,11 @@
+.flexivel {
+    width: 130px;
+    display: flex;
+}
+.centro {
+   margin-left: 50%; 
+   
+}
+.block {
+    display: block;
+}

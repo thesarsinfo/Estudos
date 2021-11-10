@@ -1,0 +1,23 @@
+.cssTela {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #444;
+    width: 260px;    
+}
+
+.cssOperacao {
+    font-size: 25px;
+    color: #fff;
+    width: 540px;
+    height:20px;   
+}
+
+.cssResultado {
+    font-size: 50px;
+    color: #fff;
+    width: 540px;
+}

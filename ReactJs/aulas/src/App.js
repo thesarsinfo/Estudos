@@ -28,6 +28,8 @@ import Aula27 from "./componentes/aulas-21-30/aula-27/Aula27";
 import Aula28 from "./componentes/aulas-21-30/aula-28/Aula28";
 import Aula29 from "./componentes/aulas-21-30/aula-29/Aula29";
 import Aula30 from "./componentes/aulas-21-30/aula-30/Aula30";
+import Aula31 from "./componentes/aulas-31-40/aula-31/Aula31";
+import Aula33_34 from "./componentes/aulas-31-40/aula-33-34/Aula33_34";
 
 export default function App(){  
   
@@ -89,6 +91,10 @@ export default function App(){
       <Aula29/>
       {/*Calculadora IMC*/}
       <Aula30/>
+      {/*Desafio no Aula 31 e 32*/}
+      <Aula31/>
+      {/*Criando uma calculadora no Aula 33*/}
+      <Aula33_34/>
     </>
   )
 }
