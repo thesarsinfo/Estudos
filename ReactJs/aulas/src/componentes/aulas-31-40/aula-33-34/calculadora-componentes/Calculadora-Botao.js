@@ -36,10 +36,14 @@ export default class CalculadoraBotao extends React.Component{
         }
         
         const valorDigitadoTela  = this.props.valorTela + simbolo
+        console.log(typeof(simbolo))
+        console.log(this.props.valorTela)
+        console.log(valorDigitadoTela)
+
         this.props.setValorTela(valorDigitadoTela);
         
     }
-    LimparMemoria =() => {
+    LimparMemoria = () => {
         console.log('Funçao limpar memoria chamada')
         
         this.props.setOperado(false);        
@@ -76,6 +80,7 @@ export default class CalculadoraBotao extends React.Component{
     render(){
         return (
             <div>
+                
                 <button className={'botao'} onClick={() => this.AddDigitoTela(this.props.simbolo)}>{this.props.simbolo}</button>
                 
             </div>

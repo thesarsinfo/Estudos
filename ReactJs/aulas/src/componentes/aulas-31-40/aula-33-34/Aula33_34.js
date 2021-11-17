@@ -13,6 +13,8 @@ export default function Aula33_34(){
     const[acumulador,setarAcumulador]=useState(0)
     const[operado,setarOperado]=useState(false)
 
+
+
     return (
         <section>
             <article>
@@ -26,7 +28,7 @@ export default function Aula33_34(){
                     />
                 </div>
                 <div className={'flexivel centro'}> 
-                    <CalculadoraBotao simbolo={'AC'}
+                    <CalculadoraBotao simbolo={'AC'}                       
                         setOperado={setarOperado}
                         setValorTela={setarValorTela}
                         setResultado={setarResultado}
@@ -42,7 +44,7 @@ export default function Aula33_34(){
                         
                     />
                     <CalculadoraBotao simbolo={'/'}
-                    operado={true}
+                    valorTela={valorTela}
                     setValorTela={setarValorTela}
                     resultado={resultado}
 
@@ -50,22 +52,23 @@ export default function Aula33_34(){
                     />
                 </div>
                 <div className={'flexivel centro'}> 
-                    <CalculadoraBotao simbolo={'7'}
-                    valorTela={valorTela}
-                    operado={true}
+                    <CalculadoraBotao simbolo={'7'}   
+                    operado={operado}                
+                    valorTela={valorTela}                    
                     setValorTela={setarValorTela}
                     />
                     <CalculadoraBotao simbolo={'8'}
                     valorTela={valorTela}
                     setValorTela={setarValorTela}
-                    operado={true}
+                   
                     />
                     <CalculadoraBotao simbolo={'9'}
                     valorTela={valorTela}
                     setValorTela={setarValorTela}
-                    operado={true}
+                    
                     />
-                    <CalculadoraBotao simbolo={'*'}                    
+                    <CalculadoraBotao simbolo={'*'}   
+                    valorTela={valorTela}                 
                     setValorTela={setarValorTela}
                     resultado={resultado}
                     setOperado={setarOperado}
@@ -75,20 +78,20 @@ export default function Aula33_34(){
                     <CalculadoraBotao simbolo={'4'}
                     valorTela={valorTela}
                     setValorTela={setarValorTela}
-                    operado={true}
+                    
                     />
                     <CalculadoraBotao simbolo={'5'}
                     valorTela={valorTela}
                     setValorTela={setarValorTela}
-                    operado={true}
+                    
                     />
                     <CalculadoraBotao simbolo={'6'}
                     valorTela={valorTela}
                     setValorTela={setarValorTela}
-                    operado={true}
+                    
                     />
                     <CalculadoraBotao simbolo={'-'}
-                    
+                    valorTela={valorTela}
                     setValorTela={setarValorTela}
                     resultado={resultado}
                     setOperado={setarOperado}
@@ -108,7 +111,7 @@ export default function Aula33_34(){
                     setValorTela={setarValorTela}
                     />
                     <CalculadoraBotao simbolo={'+'}
-                    operado={true}
+                    valorTela={valorTela}
                     setValorTela={setarValorTela}
                     resultado={resultado}
                     setOperado={setarOperado}
@@ -133,6 +136,8 @@ export default function Aula33_34(){
                     
                     />
                     <CalculadoraBotao simbolo={'='}
+                    valorTela={valorTela}
+                    operado={operado}
                     setAcumulador={setarAcumulador}
                     setResultado={setarResultado}
                     setOperado={setarOperado}

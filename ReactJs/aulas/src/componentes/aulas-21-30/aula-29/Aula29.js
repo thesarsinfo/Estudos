@@ -13,7 +13,7 @@ const retornaLinhas = (cat) => {
 
     carros.forEach(
         (carro)=> {
-            if(carro.categoria.toUpperCase() == cat.toUpperCase() || cat.toUpperCase() == ''){
+            if(carro.categoria.toUpperCase() === cat.toUpperCase() || cat.toUpperCase() === ''){
                 linhas.push(
                     <tr>
                         <td>{carro.categoria}</td>
