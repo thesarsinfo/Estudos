@@ -1,0 +1,6 @@
+Id Produto	Quantidade	Valor Unitario	Total
+			
+C	create	lista.append	
+R	read	lista[indice]	
+U	update	lista[indice] ler e atribuir	
+D	delete	lista.remove[indice]	

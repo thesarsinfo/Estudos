@@ -26,6 +26,7 @@ namespace Aula10.Aulas
             Console.WriteLine(ds);
             ds = (DiasSemana)3;
             Console.WriteLine(ds);
+            Console.WriteLine(typeof(ds));
             //Pegando o numero do indice
             dss = (int)DiasSemana.Sexta;
             Console.WriteLine(dss);
