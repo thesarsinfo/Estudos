@@ -33,3 +33,5 @@ C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empr
 C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Cadastro_Empresa\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Cadastro_Empresa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Cadastro_Empresa\obj\Debug\Cadastro_Empresa.csproj.CopyComplete
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Cadastro_Empresa\bin\Debug\Business.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Cadastro_Empresa\bin\Debug\Business.pdb

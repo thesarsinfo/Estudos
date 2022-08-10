@@ -1,24 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Saraiva\\Documents\\Estudos\\CursosYouTube\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj": {}
+    "C:\\Users\\USER\\OneDrive\\Documents\\Estudos Programacao\\Estudos\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Saraiva\\Documents\\Estudos\\CursosYouTube\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj": {
+    "C:\\Users\\USER\\OneDrive\\Documents\\Estudos Programacao\\Estudos\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Saraiva\\Documents\\Estudos\\CursosYouTube\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\Estudos Programacao\\Estudos\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj",
         "projectName": "Editor de Texto",
-        "projectPath": "C:\\Users\\Saraiva\\Documents\\Estudos\\CursosYouTube\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj",
-        "packagesPath": "C:\\Users\\Saraiva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Saraiva\\Documents\\Estudos\\CursosYouTube\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\obj\\",
+        "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\Estudos Programacao\\Estudos\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\Estudos Programacao\\Estudos\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Saraiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -49,6 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -57,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

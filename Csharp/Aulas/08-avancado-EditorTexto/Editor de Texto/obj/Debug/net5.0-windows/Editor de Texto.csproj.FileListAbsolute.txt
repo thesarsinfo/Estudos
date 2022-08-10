@@ -17,3 +17,22 @@ C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\08-avancado-Editor
 C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\ref\Editor de Texto.dll
 C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.pdb
 C:\Users\Saraiva\Documents\Estudos\CursosYouTube\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\bin\Debug\net5.0-windows\Editor de Texto.exe
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\bin\Debug\net5.0-windows\Editor de Texto.deps.json
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\bin\Debug\net5.0-windows\Editor de Texto.runtimeconfig.json
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\bin\Debug\net5.0-windows\Editor de Texto.runtimeconfig.dev.json
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\bin\Debug\net5.0-windows\Editor de Texto.dll
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\bin\Debug\net5.0-windows\Editor de Texto.pdb
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor_de_Texto.Form1.resources
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor_de_Texto.Properties.Resources.resources
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.csproj.GenerateResource.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.dll
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\refint\Editor de Texto.dll
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.pdb
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\Editor de Texto.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\Aulas\08-avancado-EditorTexto\Editor de Texto\obj\Debug\net5.0-windows\ref\Editor de Texto.dll

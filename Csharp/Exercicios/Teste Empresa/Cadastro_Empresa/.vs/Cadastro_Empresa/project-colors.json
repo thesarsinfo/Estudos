@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "44ffd1a7-d053-4382-b961-b8ce3a431c3c": {
+      "ProjectGuid": "44ffd1a7-d053-4382-b961-b8ce3a431c3c",
+      "DisplayName": "Cadastro_Empresa",
+      "ColorIndex": 0
+    },
+    "bbae77ff-9773-49f2-8cf7-f9a61373201c": {
+      "ProjectGuid": "bbae77ff-9773-49f2-8cf7-f9a61373201c",
+      "DisplayName": "Database",
+      "ColorIndex": 1
+    },
+    "83f5df9e-d7cc-4ff1-bb6c-3704c41e9cdf": {
+      "ProjectGuid": "83f5df9e-d7cc-4ff1-bb6c-3704c41e9cdf",
+      "DisplayName": "Business",
+      "ColorIndex": 2
+    },
+    "134e6ff0-0d73-48aa-953e-1cb141441458": {
+      "ProjectGuid": "134e6ff0-0d73-48aa-953e-1cb141441458",
+      "DisplayName": "Database",
+      "ColorIndex": 3
+    },
+    "73af6384-c488-40e0-83e6-3f5f4e2286e4": {
+      "ProjectGuid": "73af6384-c488-40e0-83e6-3f5f4e2286e4",
+      "DisplayName": "Business",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

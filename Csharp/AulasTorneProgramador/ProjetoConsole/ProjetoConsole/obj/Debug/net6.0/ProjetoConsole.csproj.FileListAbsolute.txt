@@ -1,0 +1,15 @@
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\bin\Debug\net6.0\ProjetoConsole.exe
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\bin\Debug\net6.0\ProjetoConsole.deps.json
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\bin\Debug\net6.0\ProjetoConsole.runtimeconfig.json
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\bin\Debug\net6.0\ProjetoConsole.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\bin\Debug\net6.0\ref\ProjetoConsole.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\bin\Debug\net6.0\ProjetoConsole.pdb
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.AssemblyInfo.cs
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ref\ProjetoConsole.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.pdb
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\AulasTorneProgramador\ProjetoConsole\ProjetoConsole\obj\Debug\net6.0\ProjetoConsole.genruntimeconfig.cache

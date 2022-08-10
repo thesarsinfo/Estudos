@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VzsPDOJJ6PMsP5O+b+9AO1ZTYGNKjgn888acZpiP3XGyW2pyKGo4VJy0OYXdzvluceuazHE84XDkvvBbTfIaZA==",
+  "dgSpecHash": "wdXv7zdjJCrbG6bVdpZTS9s4P2IGsj3t4rqV8in/sKLuDeRLowJmn1yHtzFk7xoBt0JB0o5Kpv1/YYzrkMAddQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Saraiva\\Documents\\Estudos\\CursosYouTube\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\USER\\OneDrive\\Documents\\Estudos Programacao\\Estudos\\Csharp\\Aulas\\08-avancado-EditorTexto\\Editor de Texto\\Editor de Texto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

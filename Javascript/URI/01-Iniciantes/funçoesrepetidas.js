@@ -9,7 +9,7 @@ function SphereSize()
 
 // entrada mesma linha
 
-function receiveData()
+function getData()
 {
     let productsReceiveData = []
     let productsData = [];   

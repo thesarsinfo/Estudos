@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Csharp/Aulas/03-Basico-Parte1/Aula24-Metodos/Aula24.csproj",
+                "${workspaceFolder}/Csharp/URI/ExerciciosUri/exerciciosuri.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Csharp/Aulas/03-Basico-Parte1/Aula24-Metodos/Aula24.csproj",
+                "${workspaceFolder}/Csharp/URI/ExerciciosUri/exerciciosuri.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,9 +32,8 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Csharp/Aulas/03-Basico-Parte1/Aula24-Metodos/Aula24.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "--project",
+                "${workspaceFolder}/Csharp/URI/ExerciciosUri/exerciciosuri.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

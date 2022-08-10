@@ -89,33 +89,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\Database.cs" />
-    <Compile Include="Enum\EnumEstado.cs" />
-    <Compile Include="Form_Cadastro_Empresa.cs">
+    <Compile Include="Models\Database.cs" />
+    <Compile Include="View\Form_Cadastro_Empresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Cadastro_Empresa.Designer.cs">
+    <Compile Include="View\Form_Cadastro_Empresa.Designer.cs">
       <DependentUpon>Form_Cadastro_Empresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Fornecedor.cs">
+    <Compile Include="View\Form_Fornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Fornecedor.Designer.cs">
+    <Compile Include="View\Form_Fornecedor.Designer.cs">
       <DependentUpon>Form_Fornecedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Principal.cs">
+    <Compile Include="View\Form_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Principal.Designer.cs">
+    <Compile Include="View\Form_Principal.Designer.cs">
       <DependentUpon>Form_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VariaveisGlobais.cs" />
-    <EmbeddedResource Include="Form_Cadastro_Empresa.resx">
+    <Compile Include="Controller\VariaveisGlobais.cs" />
+    <EmbeddedResource Include="View\Form_Cadastro_Empresa.resx">
       <DependentUpon>Form_Cadastro_Empresa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Principal.resx">
+    <EmbeddedResource Include="View\Form_Principal.resx">
       <DependentUpon>Form_Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -144,6 +143,11 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{73af6384-c488-40e0-83e6-3f5f4e2286e4}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

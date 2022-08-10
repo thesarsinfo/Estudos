@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Business\bin\Debug\Business.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Business\bin\Debug\Business.pdb
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Business\obj\Debug\Business.dll
+C:\Users\USER\Documents\Estudos Programacao\Estudos\Csharp\Exercicios\Teste Empresa\Cadastro_Empresa\Business\obj\Debug\Business.pdb

@@ -1,0 +1,15 @@
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\bin\Debug\net6.0\ADhoc.exe
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\bin\Debug\net6.0\ADhoc.deps.json
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\bin\Debug\net6.0\ADhoc.runtimeconfig.json
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\bin\Debug\net6.0\ADhoc.dll
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\bin\Debug\net6.0\ADhoc.pdb
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.dll
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\refint\ADhoc.dll
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.pdb
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ADhoc.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Documents\Estudos Programacao\Estudos\Csharp\URI\ADhoc\obj\Debug\net6.0\ref\ADhoc.dll

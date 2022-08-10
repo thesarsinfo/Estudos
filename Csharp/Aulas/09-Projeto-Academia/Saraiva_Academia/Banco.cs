@@ -55,7 +55,6 @@ namespace Saraiva_Academia
         }
         public static void Dml(string query, string msgOk = null, string msgError = null) //Data Manipulation Language(insert, Delete update
         {
-
             SQLiteDataAdapter dataAdapter = null; // data adapter
             DataTable dataTable = new DataTable();
             try
@@ -71,7 +70,6 @@ namespace Saraiva_Academia
                 {
                     MessageBox.Show(msgOk);
                 }
-
             }
             catch (Exception ex)
             {
@@ -220,7 +218,6 @@ namespace Saraiva_Academia
         }
         public static void ExcluirUsuario(string id)//Update não prescisa retorna valores
         {
-
             SQLiteDataAdapter dataAdapter = null; // data adapter
             DataTable dataTable = new DataTable();
             try
@@ -256,7 +253,6 @@ namespace Saraiva_Academia
             verificaConexao.Close();
             return resultadoConsulta ;
         }
-
     }
 }
    
